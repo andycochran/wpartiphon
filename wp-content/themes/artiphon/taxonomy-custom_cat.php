@@ -19,7 +19,7 @@ taxonomy-shoes.php
 
 	<div id="inner-content" class="row">
 
-	    <main id="main" class="large-8 medium-8 columns first" role="main">
+	    <main id="main" class="medium-8 medium-push-4 large-9 large-push-3 columns first" role="main">
 	
 		    <header>
 		    	<h1 class="page-title"><span><?php _e("Posts Categorized:", "jointstheme"); ?></span> <?php single_cat_title(); ?></h1>

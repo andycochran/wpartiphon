@@ -4,7 +4,7 @@
 
 		<div id="inner-content" class="row">
 	
-			<main id="main" class="large-8 medium-8 columns" role="main">
+			<main id="main" class="medium-8 medium-push-4 large-9 large-push-3 columns" role="main">
 
 				<article id="content-not-found">
 				

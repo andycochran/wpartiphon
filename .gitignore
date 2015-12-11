@@ -17,6 +17,12 @@ wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
 
+# artiphon theme specific
+wp-content/themes/artiphon/.DS_Store
+wp-content/themes/artiphon/assets/scss/.sass-cache/*
+wp-content/themes/artiphon/node_modules/
+wp-content/themes/artiphon/bower_components/
+
 # wpengine specific
 .smushit-status
 .gitattributes

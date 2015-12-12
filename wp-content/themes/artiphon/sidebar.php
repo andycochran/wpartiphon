@@ -1,4 +1,4 @@
-<div id="sidebar1" class="sidebar medium-4 medium-pull-8 large-3 large-pull-9 columns" role="complementary">
+<div id="sidebar1" class="sidebar medium-4 medium-pull-8 large-3 large-pull-9 columns" role="complementary" data-equalizer-watch>
 
 	<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
 

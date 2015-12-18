@@ -8,6 +8,10 @@ Stylesheet: Main Stylesheet
 GENERAL STYLES
 *********************/
 
+p:empty {
+	display: none;
+}
+
 /*********************
 LINK STYLES
 *********************/
@@ -70,9 +74,19 @@ NAVIGATION STYLES
 		width: auto;
 		margin: $grid-column-gutter/-2 0;
 	}
+	.top-bar-right {
+		@include breakpoint(small only) {
+			margin-top: $grid-column-gutter/2;
+		}
+	}
 	.title-area {
 		z-index: 1;
 	}
+}
+
+#mainMenuToggler {
+	@include hamburger($anchor-color, $anchor-color-hover);
+	margin: 0.7rem 0.5rem;
 }
 
 .off-canvas-list {

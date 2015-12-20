@@ -4368,6 +4368,9 @@ FOOTER STYLES
 /*********************
 FOUNDATION STYLES
 *********************/
+.flex-video {
+  padding-top: 0; }
+
 /*********************
 PLUGIN STYLES
 *********************/

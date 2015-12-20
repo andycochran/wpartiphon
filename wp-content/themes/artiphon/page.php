@@ -2,9 +2,9 @@
 
 	<div id="content">
 
-		<div id="inner-content" class="row" data-equalizer>
+		<div id="inner-content" class="row">
 
-		    <main id="main" class="medium-8 medium-push-4 large-9 large-push-3 columns" role="main" data-equalizer-watch>
+		    <main id="main" class="medium-8 medium-push-4 large-9 large-push-3 columns" role="main">
 
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

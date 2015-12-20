@@ -2121,7 +2121,7 @@ hr {
 ul,
 ol,
 dl {
-  line-height: 1.6;
+  line-height: 1.2;
   margin-bottom: 1rem;
   list-style-position: outside; }
 
@@ -4048,6 +4048,9 @@ GENERAL STYLES
 *********************/
 p:empty {
   display: none; }
+
+li {
+  margin-bottom: 0.75rem; }
 
 /*********************
 LINK STYLES

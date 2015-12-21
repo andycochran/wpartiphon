@@ -215,19 +215,28 @@ POSTS & CONTENT STYLES
 /*********************
 IMAGE GALLERY STYLES
 *********************/
-	.gallery {
-
-		dl {
-
-			a {}
-
-			img {}
-
+.gallery {
+	@include grid-row;
+	@for $i from 1 through $block-grid-max {
+		&.gallery-columns-#{$i} {
+			@include grid-layout($i, dl);
 		}
+	}
+	margin: 0 $grid-column-gutter/-4;
 
-		dt {}
+	dl {
+		@include grid-column($grid-column-count, $grid-column-gutter/2);
+		// @include grid-column-collapse;
 
-		dd {}
+		a {}
+
+		img {}
+
+	}
+
+	dt {}
+
+	dd {}
 
 }
 

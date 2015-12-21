@@ -4200,6 +4200,78 @@ POSTS & CONTENT STYLES
 /*********************
 IMAGE GALLERY STYLES
 *********************/
+.gallery {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 -15px; }
+  .gallery::before, .gallery::after {
+    content: ' ';
+    display: table; }
+  .gallery::after {
+    clear: both; }
+  .gallery.gallery-columns-1 dl {
+    width: 100%;
+    float: left; }
+    .gallery.gallery-columns-1 dl:nth-of-type(1n) {
+      clear: none; }
+    .gallery.gallery-columns-1 dl:nth-of-type(1n+1) {
+      clear: both; }
+    .gallery.gallery-columns-1 dl:last-child {
+      float: left; }
+  .gallery.gallery-columns-2 dl {
+    width: 50%;
+    float: left; }
+    .gallery.gallery-columns-2 dl:nth-of-type(1n) {
+      clear: none; }
+    .gallery.gallery-columns-2 dl:nth-of-type(2n+1) {
+      clear: both; }
+    .gallery.gallery-columns-2 dl:last-child {
+      float: left; }
+  .gallery.gallery-columns-3 dl {
+    width: 33.33333%;
+    float: left; }
+    .gallery.gallery-columns-3 dl:nth-of-type(1n) {
+      clear: none; }
+    .gallery.gallery-columns-3 dl:nth-of-type(3n+1) {
+      clear: both; }
+    .gallery.gallery-columns-3 dl:last-child {
+      float: left; }
+  .gallery.gallery-columns-4 dl {
+    width: 25%;
+    float: left; }
+    .gallery.gallery-columns-4 dl:nth-of-type(1n) {
+      clear: none; }
+    .gallery.gallery-columns-4 dl:nth-of-type(4n+1) {
+      clear: both; }
+    .gallery.gallery-columns-4 dl:last-child {
+      float: left; }
+  .gallery.gallery-columns-5 dl {
+    width: 20%;
+    float: left; }
+    .gallery.gallery-columns-5 dl:nth-of-type(1n) {
+      clear: none; }
+    .gallery.gallery-columns-5 dl:nth-of-type(5n+1) {
+      clear: both; }
+    .gallery.gallery-columns-5 dl:last-child {
+      float: left; }
+  .gallery.gallery-columns-6 dl {
+    width: 16.66667%;
+    float: left; }
+    .gallery.gallery-columns-6 dl:nth-of-type(1n) {
+      clear: none; }
+    .gallery.gallery-columns-6 dl:nth-of-type(6n+1) {
+      clear: both; }
+    .gallery.gallery-columns-6 dl:last-child {
+      float: left; }
+  .gallery dl {
+    width: 100%;
+    float: left;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem; }
+    .gallery dl:last-child:not(:first-child) {
+      float: right; }
+
 /*********************
 PAGE NAVI STYLES
 *********************/

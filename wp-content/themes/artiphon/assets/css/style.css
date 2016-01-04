@@ -4275,6 +4275,10 @@ IMAGE GALLERY STYLES
     .gallery dl:last-child:not(:first-child) {
       float: right; }
 
+.gallery-caption {
+  text-align: center;
+  font-size: 80%; }
+
 /*********************
 PAGE NAVI STYLES
 *********************/

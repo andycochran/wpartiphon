@@ -2104,7 +2104,7 @@ a {
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #98342c; }
+    color: #6a251f; }
   a img {
     border: 0; }
 
@@ -4109,8 +4109,8 @@ NAVIGATION STYLES
     left: 0;
     box-shadow: 0 7px 0 #b13d33, 0 14px 0 #b13d33; }
   #mainMenuToggler:hover::after {
-    background: #98342c;
-    box-shadow: 0 7px 0 #98342c, 0 14px 0 #98342c; }
+    background: #6a251f;
+    box-shadow: 0 7px 0 #6a251f, 0 14px 0 #6a251f; }
 
 .off-canvas-list ul {
   margin-left: 0; }

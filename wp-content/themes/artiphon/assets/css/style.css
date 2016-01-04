@@ -2040,7 +2040,7 @@ td {
 p {
   font-size: inherit;
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
   text-rendering: optimizeLegibility; }
 
 em,
@@ -2122,7 +2122,7 @@ ul,
 ol,
 dl {
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
   list-style-position: outside; }
 
 li {
@@ -2147,7 +2147,7 @@ dl {
     font-weight: bold; }
 
 blockquote {
-  margin: 0 0 1rem;
+  margin: 0 0 1.6rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #cacaca; }
   blockquote, blockquote p {
@@ -4053,7 +4053,7 @@ ol {
   margin-left: 1.25rem; }
 
 li {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 1.2rem; }
 
 /*********************
 LINK STYLES

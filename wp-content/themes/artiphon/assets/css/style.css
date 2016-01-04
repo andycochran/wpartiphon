@@ -4129,6 +4129,9 @@ POSTS & CONTENT STYLES
   border: 0px;
   padding: 0px; }
 
+.article-header {
+  margin-bottom: 40px; }
+
 .post + .post {
   box-shadow: 0 -1px 0 #ddd;
   margin-top: 80px;

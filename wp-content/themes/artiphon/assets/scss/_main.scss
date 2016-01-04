@@ -222,10 +222,10 @@ IMAGE GALLERY STYLES
 			@include grid-layout($i, dl);
 		}
 	}
-	margin: 0 $grid-column-gutter/-4;
+	margin: 0 $grid-column-gutter/-8;
 
 	dl {
-		@include grid-column($grid-column-count, $grid-column-gutter/2);
+		@include grid-column($grid-column-count, $grid-column-gutter/4);
 		// @include grid-column-collapse;
 
 		a {}

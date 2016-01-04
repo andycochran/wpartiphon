@@ -4128,8 +4128,8 @@ POSTS & CONTENT STYLES
 
 .post + .post {
   box-shadow: 0 -1px 0 #ddd;
-  margin-top: 30px;
-  padding-top: 30px; }
+  margin-top: 60px;
+  padding-top: 60px; }
 
 .byline {
   color: #999; }

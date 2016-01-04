@@ -294,7 +294,7 @@ $dropdown-border: 1px solid $medium-gray;
 // --------------
 
 $flexvideo-padding-top: rem-calc(25);
-$flexvideo-margin-bottom: rem-calc(16);
+$flexvideo-margin-bottom: $paragraph-margin-bottom;
 $flexvideo-ratio: 4 by 3;
 $flexvideo-ratio-widescreen: 16 by 9;
 

@@ -11,6 +11,9 @@ GENERAL STYLES
 p:empty {
 	display: none;
 }
+ol {
+	margin-left: 1.25rem;
+}
 li {
 	margin-bottom: $paragraph-margin-bottom * 0.75;
 }

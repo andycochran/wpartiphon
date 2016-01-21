@@ -4408,7 +4408,7 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 .sidebar {
-  box-shadow: 1px 0 0 #ddd; }
+  box-shadow: -1px 0 0 #ddd; }
 
 .widgettitle {
   font-size: 1.1875rem; }

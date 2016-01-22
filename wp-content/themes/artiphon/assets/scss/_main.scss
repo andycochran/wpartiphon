@@ -551,9 +551,8 @@ FOOTER STYLES
 *********************/
 .footer {
 	clear: both;
-	margin-top: 1em;
 	padding: $grid-column-gutter 0;
-	background-color: #9d9d9d;
+	background-color: $medium-gray;
 	color: #d8d8d8;
 	a {
 		color: #eee;
@@ -624,5 +623,18 @@ Category Archive Template
 				margin: 0 rem-calc(5) 0 0;
 			}
 		}
+	}
+}
+
+/*********************
+MailChimp, Mailing List
+*********************/
+
+.artiphon-mailing-list {
+	background-color: $light-gray;
+	margin-top: rem-calc(20);
+	padding: rem-calc(40) 0 rem-calc(20);
+	[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+		border-color: $white;
 	}
 }

@@ -605,3 +605,24 @@ PLUGIN STYLES
     list-style: none outside none;
     margin: 0;
 }
+
+/*********************
+Category Archive Template
+*********************/
+.artiphon-category-archive {
+	ul {
+		list-style: none;
+		margin-left: 0;
+		li {
+			display: inline-block;
+			margin: 0 $paragraph-margin-bottom $paragraph-margin-bottom 0;
+			background-color: $secondary-color;
+			color: $white;
+			padding: 0 rem-calc(10) 0 0;
+			a {
+				@extend .button;
+				margin: 0 rem-calc(5) 0 0;
+			}
+		}
+	}
+}

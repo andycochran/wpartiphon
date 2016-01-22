@@ -2292,7 +2292,7 @@ kbd {
   h3 {
     page-break-after: avoid; } }
 
-.button {
+.button, .artiphon-category-archive ul li a {
   display: inline-block;
   text-align: center;
   line-height: 1;
@@ -2307,95 +2307,95 @@ kbd {
   font-size: 0.9rem;
   background: #b13d33;
   color: #fff; }
-  [data-whatinput='mouse'] .button {
+  [data-whatinput='mouse'] .button, [data-whatinput='mouse'] .artiphon-category-archive ul li a, .artiphon-category-archive ul li [data-whatinput='mouse'] a {
     outline: 0; }
-  .button:hover, .button:focus {
+  .button:hover, .artiphon-category-archive ul li a:hover, .button:focus, .artiphon-category-archive ul li a:focus {
     background: #96342b;
     color: #fff; }
-  .button.tiny {
+  .button.tiny, .artiphon-category-archive ul li a.tiny {
     font-size: 0.6rem; }
-  .button.small {
+  .button.small, .artiphon-category-archive ul li a.small {
     font-size: 0.75rem; }
-  .button.large {
+  .button.large, .artiphon-category-archive ul li a.large {
     font-size: 1.25rem; }
-  .button.expanded {
+  .button.expanded, .artiphon-category-archive ul li a.expanded {
     display: block;
     width: 100%;
     margin-left: 0;
     margin-right: 0; }
-  .button.primary {
+  .button.primary, .artiphon-category-archive ul li a.primary {
     background: #b13d33;
     color: #fff; }
-    .button.primary:hover, .button.primary:focus {
+    .button.primary:hover, .artiphon-category-archive ul li a.primary:hover, .button.primary:focus, .artiphon-category-archive ul li a.primary:focus {
       background: #8e3129;
       color: #fff; }
-  .button.secondary {
+  .button.secondary, .artiphon-category-archive ul li a.secondary {
     background: #777;
     color: #fff; }
-    .button.secondary:hover, .button.secondary:focus {
+    .button.secondary:hover, .artiphon-category-archive ul li a.secondary:hover, .button.secondary:focus, .artiphon-category-archive ul li a.secondary:focus {
       background: #5f5f5f;
       color: #fff; }
-  .button.success {
+  .button.success, .artiphon-category-archive ul li a.success {
     background: #3adb76;
     color: #fff; }
-    .button.success:hover, .button.success:focus {
+    .button.success:hover, .artiphon-category-archive ul li a.success:hover, .button.success:focus, .artiphon-category-archive ul li a.success:focus {
       background: #22bb5b;
       color: #fff; }
-  .button.alert {
+  .button.alert, .artiphon-category-archive ul li a.alert {
     background: #ec5840;
     color: #fff; }
-    .button.alert:hover, .button.alert:focus {
+    .button.alert:hover, .artiphon-category-archive ul li a.alert:hover, .button.alert:focus, .artiphon-category-archive ul li a.alert:focus {
       background: #da3116;
       color: #fff; }
-  .button.warning {
+  .button.warning, .artiphon-category-archive ul li a.warning {
     background: #ffae00;
     color: #fff; }
-    .button.warning:hover, .button.warning:focus {
+    .button.warning:hover, .artiphon-category-archive ul li a.warning:hover, .button.warning:focus, .artiphon-category-archive ul li a.warning:focus {
       background: #cc8b00;
       color: #fff; }
-  .button.hollow {
+  .button.hollow, .artiphon-category-archive ul li a.hollow {
     border: 1px solid #b13d33;
     color: #b13d33; }
-    .button.hollow, .button.hollow:hover, .button.hollow:focus {
+    .button.hollow, .artiphon-category-archive ul li a.hollow, .button.hollow:hover, .artiphon-category-archive ul li a.hollow:hover, .button.hollow:focus, .artiphon-category-archive ul li a.hollow:focus {
       background: transparent; }
-    .button.hollow:hover, .button.hollow:focus {
+    .button.hollow:hover, .artiphon-category-archive ul li a.hollow:hover, .button.hollow:focus, .artiphon-category-archive ul li a.hollow:focus {
       border-color: #591f1a;
       color: #591f1a; }
-    .button.hollow.primary {
+    .button.hollow.primary, .artiphon-category-archive ul li a.hollow.primary {
       border: 1px solid #b13d33;
       color: #b13d33; }
-      .button.hollow.primary:hover, .button.hollow.primary:focus {
+      .button.hollow.primary:hover, .artiphon-category-archive ul li a.hollow.primary:hover, .button.hollow.primary:focus, .artiphon-category-archive ul li a.hollow.primary:focus {
         border-color: #591f1a;
         color: #591f1a; }
-    .button.hollow.secondary {
+    .button.hollow.secondary, .artiphon-category-archive ul li a.hollow.secondary {
       border: 1px solid #777;
       color: #777; }
-      .button.hollow.secondary:hover, .button.hollow.secondary:focus {
+      .button.hollow.secondary:hover, .artiphon-category-archive ul li a.hollow.secondary:hover, .button.hollow.secondary:focus, .artiphon-category-archive ul li a.hollow.secondary:focus {
         border-color: #3c3c3c;
         color: #3c3c3c; }
-    .button.hollow.success {
+    .button.hollow.success, .artiphon-category-archive ul li a.hollow.success {
       border: 1px solid #3adb76;
       color: #3adb76; }
-      .button.hollow.success:hover, .button.hollow.success:focus {
+      .button.hollow.success:hover, .artiphon-category-archive ul li a.hollow.success:hover, .button.hollow.success:focus, .artiphon-category-archive ul li a.hollow.success:focus {
         border-color: #157539;
         color: #157539; }
-    .button.hollow.alert {
+    .button.hollow.alert, .artiphon-category-archive ul li a.hollow.alert {
       border: 1px solid #ec5840;
       color: #ec5840; }
-      .button.hollow.alert:hover, .button.hollow.alert:focus {
+      .button.hollow.alert:hover, .artiphon-category-archive ul li a.hollow.alert:hover, .button.hollow.alert:focus, .artiphon-category-archive ul li a.hollow.alert:focus {
         border-color: #881f0e;
         color: #881f0e; }
-    .button.hollow.warning {
+    .button.hollow.warning, .artiphon-category-archive ul li a.hollow.warning {
       border: 1px solid #ffae00;
       color: #ffae00; }
-      .button.hollow.warning:hover, .button.hollow.warning:focus {
+      .button.hollow.warning:hover, .artiphon-category-archive ul li a.hollow.warning:hover, .button.hollow.warning:focus, .artiphon-category-archive ul li a.hollow.warning:focus {
         border-color: #805700;
         color: #805700; }
-  .button.disabled {
+  .button.disabled, .artiphon-category-archive ul li a.disabled {
     opacity: 0.25;
     cursor: not-allowed;
     pointer-events: none; }
-  .button.dropdown::after {
+  .button.dropdown::after, .artiphon-category-archive ul li a.dropdown::after {
     content: '';
     display: block;
     width: 0;
@@ -2408,7 +2408,7 @@ kbd {
     float: right;
     margin-left: 1em;
     display: inline-block; }
-  .button.arrow-only::after {
+  .button.arrow-only::after, .artiphon-category-archive ul li a.arrow-only::after {
     margin-left: 0;
     float: none;
     top: 0.2em; }
@@ -2805,11 +2805,11 @@ select {
     display: table; }
   .button-group::after {
     clear: both; }
-  .button-group .button {
+  .button-group .button, .button-group .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group a {
     float: left;
     margin: 0;
     font-size: inherit; }
-    .button-group .button:not(:last-child) {
+    .button-group .button:not(:last-child), .button-group .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group a:not(:last-child) {
       border-right: 1px solid #fefefe; }
   .button-group.tiny {
     font-size: 0.6rem; }
@@ -2817,58 +2817,88 @@ select {
     font-size: 0.75rem; }
   .button-group.large {
     font-size: 1.25rem; }
-  .button-group.expanded .button:nth-last-child(2):first-child,
-  .button-group.expanded .button:nth-last-child(2):first-child ~ .button {
+  .button-group.expanded .button:nth-last-child(2):first-child, .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(2):first-child, .artiphon-category-archive ul li .button-group.expanded a:nth-last-child(2):first-child,
+  .button-group.expanded .button:nth-last-child(2):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(2):first-child ~ .button, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(2):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li .button:nth-last-child(2):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded .button:nth-last-child(2):first-child ~ a,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(2):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(2):first-child ~ a {
     width: 50%; }
-  .button-group.expanded .button:nth-last-child(3):first-child,
-  .button-group.expanded .button:nth-last-child(3):first-child ~ .button {
+  .button-group.expanded .button:nth-last-child(3):first-child, .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(3):first-child, .artiphon-category-archive ul li .button-group.expanded a:nth-last-child(3):first-child,
+  .button-group.expanded .button:nth-last-child(3):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(3):first-child ~ .button, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(3):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li .button:nth-last-child(3):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded .button:nth-last-child(3):first-child ~ a,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(3):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(3):first-child ~ a {
     width: 33.33333%; }
-  .button-group.expanded .button:nth-last-child(4):first-child,
-  .button-group.expanded .button:nth-last-child(4):first-child ~ .button {
+  .button-group.expanded .button:nth-last-child(4):first-child, .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(4):first-child, .artiphon-category-archive ul li .button-group.expanded a:nth-last-child(4):first-child,
+  .button-group.expanded .button:nth-last-child(4):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(4):first-child ~ .button, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(4):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li .button:nth-last-child(4):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded .button:nth-last-child(4):first-child ~ a,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(4):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(4):first-child ~ a {
     width: 25%; }
-  .button-group.expanded .button:nth-last-child(5):first-child,
-  .button-group.expanded .button:nth-last-child(5):first-child ~ .button {
+  .button-group.expanded .button:nth-last-child(5):first-child, .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(5):first-child, .artiphon-category-archive ul li .button-group.expanded a:nth-last-child(5):first-child,
+  .button-group.expanded .button:nth-last-child(5):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(5):first-child ~ .button, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(5):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li .button:nth-last-child(5):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded .button:nth-last-child(5):first-child ~ a,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(5):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(5):first-child ~ a {
     width: 20%; }
-  .button-group.expanded .button:nth-last-child(6):first-child,
-  .button-group.expanded .button:nth-last-child(6):first-child ~ .button {
+  .button-group.expanded .button:nth-last-child(6):first-child, .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(6):first-child, .artiphon-category-archive ul li .button-group.expanded a:nth-last-child(6):first-child,
+  .button-group.expanded .button:nth-last-child(6):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(6):first-child ~ .button, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(6):first-child ~ .button,
+  .button-group.expanded .artiphon-category-archive ul li .button:nth-last-child(6):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded .button:nth-last-child(6):first-child ~ a,
+  .button-group.expanded .artiphon-category-archive ul li a:nth-last-child(6):first-child ~ a, .artiphon-category-archive ul li
+  .button-group.expanded a:nth-last-child(6):first-child ~ a {
     width: 16.66667%; }
-  .button-group.primary .button {
+  .button-group.primary .button, .button-group.primary .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.primary a {
     background: #b13d33;
     color: #fff; }
-    .button-group.primary .button:hover, .button-group.primary .button:focus {
+    .button-group.primary .button:hover, .button-group.primary .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.primary a:hover, .button-group.primary .button:focus, .button-group.primary .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.primary a:focus {
       background: #8e3129;
       color: #fff; }
-  .button-group.secondary .button {
+  .button-group.secondary .button, .button-group.secondary .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.secondary a {
     background: #777;
     color: #fff; }
-    .button-group.secondary .button:hover, .button-group.secondary .button:focus {
+    .button-group.secondary .button:hover, .button-group.secondary .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.secondary a:hover, .button-group.secondary .button:focus, .button-group.secondary .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.secondary a:focus {
       background: #5f5f5f;
       color: #fff; }
-  .button-group.success .button {
+  .button-group.success .button, .button-group.success .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.success a {
     background: #3adb76;
     color: #fff; }
-    .button-group.success .button:hover, .button-group.success .button:focus {
+    .button-group.success .button:hover, .button-group.success .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.success a:hover, .button-group.success .button:focus, .button-group.success .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.success a:focus {
       background: #22bb5b;
       color: #fff; }
-  .button-group.alert .button {
+  .button-group.alert .button, .button-group.alert .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.alert a {
     background: #ec5840;
     color: #fff; }
-    .button-group.alert .button:hover, .button-group.alert .button:focus {
+    .button-group.alert .button:hover, .button-group.alert .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.alert a:hover, .button-group.alert .button:focus, .button-group.alert .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.alert a:focus {
       background: #da3116;
       color: #fff; }
-  .button-group.warning .button {
+  .button-group.warning .button, .button-group.warning .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.warning a {
     background: #ffae00;
     color: #fff; }
-    .button-group.warning .button:hover, .button-group.warning .button:focus {
+    .button-group.warning .button:hover, .button-group.warning .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.warning a:hover, .button-group.warning .button:focus, .button-group.warning .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.warning a:focus {
       background: #cc8b00;
       color: #fff; }
-  .button-group.stacked .button, .button-group.stacked-for-small .button {
+  .button-group.stacked .button, .button-group.stacked .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked a, .button-group.stacked-for-small .button, .button-group.stacked-for-small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small a {
     width: 100%;
     border-right: 0; }
   @media screen and (min-width: 32em) {
-    .button-group.stacked-for-small .button {
+    .button-group.stacked-for-small .button, .button-group.stacked-for-small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small a {
       width: auto; }
-      .button-group.stacked-for-small .button:not(:last-child) {
+      .button-group.stacked-for-small .button:not(:last-child), .button-group.stacked-for-small .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-small a:not(:last-child) {
         border-right: 1px solid #fefefe; } }
 
 .callout {
@@ -4460,6 +4490,21 @@ PLUGIN STYLES
 .gform_body ul {
   list-style: none outside none;
   margin: 0; }
+
+/*********************
+Category Archive Template
+*********************/
+.artiphon-category-archive ul {
+  list-style: none;
+  margin-left: 0; }
+  .artiphon-category-archive ul li {
+    display: inline-block;
+    margin: 0 1.6rem 1.6rem 0;
+    background-color: #777;
+    color: #fefefe;
+    padding: 0 0.625rem 0 0; }
+    .artiphon-category-archive ul li a {
+      margin: 0 0.3125rem 0 0; }
 
 /******************************************************************
 

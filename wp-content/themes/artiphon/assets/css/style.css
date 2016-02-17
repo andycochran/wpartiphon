@@ -4463,6 +4463,12 @@ SIDEBARS & ASIDES
     margin: 0; }
     .widget ul li {
       list-style: none; }
+  .widget .menu > li {
+    display: block; }
+  .widget .menu > li > a {
+    display: inline;
+    padding: 0;
+    line-height: inherit; }
 
 /*********************
 FOOTER STYLES

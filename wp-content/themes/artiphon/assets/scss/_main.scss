@@ -554,6 +554,15 @@ SIDEBARS & ASIDES
 
 		}
 	}
+
+	.menu > li {
+    display: block;
+	}
+	.menu > li > a {
+		display: inline;
+		padding: 0;
+		line-height: inherit;
+	}
 }
 /*********************
 FOOTER STYLES

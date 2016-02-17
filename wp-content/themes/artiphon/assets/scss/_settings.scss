@@ -43,7 +43,7 @@
 // 1. Global
 // ---------
 
-$global-width: rem-calc(1200);
+$global-width: rem-calc(1020);
 $global-font-size: 100%;
 $global-lineheight: 1.5;
 $primary-color: #b13d33;
@@ -59,7 +59,7 @@ $white: #fefefe;
 $body-background: $white;
 $body-font-color: #51595d;
 $body-font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$body-antialiased: true;
+$body-antialiased: false;
 $text-direction: ltr;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -215,7 +215,7 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.85em 1em;
+$button-padding: rem-calc(16) rem-calc(24);
 $button-margin: 0 $global-margin $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -226,7 +226,7 @@ $button-radius: $global-radius;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
-  default: 0.9rem,
+  default: 0.875rem,
   large: 1.25rem,
 );
 $button-opacity-disabled: 0.25;

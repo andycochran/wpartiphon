@@ -14,4 +14,31 @@ jQuery(document).ready(function() {
 	// Adds Flex Video to YouTube and Vimeo Embeds
 	jQuery('iframe[src*="youtube.com"], iframe[src*="vimeo.com"]').wrap("<div class='flex-video widescreen'/>");
 
+  jQuery('.user-guide-callout').hide();
+  jQuery('.volume > .user-guide-button').click(function(e) {
+    e.preventDefault();
+    jQuery('.user-guide-callout').hide();
+    jQuery('.user-guide-callout.volume').show();
+  });
+  jQuery('.bridge > .user-guide-button').click(function(e) {
+    e.preventDefault();
+    jQuery('.user-guide-callout').hide();
+    jQuery('.user-guide-callout.bridge').show();
+  });
+  jQuery('.capo > .user-guide-button').click(function(e) {
+    e.preventDefault();
+    jQuery('.user-guide-callout').hide();
+    jQuery('.user-guide-callout.capo').show();
+  });
+  jQuery('.fingerboard > .user-guide-button').click(function(e) {
+    e.preventDefault();
+    jQuery('.user-guide-callout').hide();
+    jQuery('.user-guide-callout.fingerboard').show();
+  });
+  jQuery('.speaker > .user-guide-button,.speaker-2 > .user-guide-button').click(function(e) {
+    e.preventDefault();
+    jQuery('.user-guide-callout').hide();
+    jQuery('.user-guide-callout.speakers').show();
+  });
+
 });

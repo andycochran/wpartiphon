@@ -9,13 +9,13 @@ GENERAL STYLES
 *********************/
 
 p:empty {
-	display: none;
+  display: none;
 }
 ol {
-	margin-left: 1.25rem;
+  margin-left: 1.25rem;
 }
 li {
-	margin-bottom: $paragraph-margin-bottom * 0.75;
+  margin-bottom: $paragraph-margin-bottom * 0.75;
 }
 
 /*********************
@@ -23,15 +23,15 @@ LINK STYLES
 *********************/
 a, a:visited {
 
-	// Mobile tap color
-	&:link {
-		//Highlight links on iOS, Similar to :hover for mobile devices.
-		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-	}
+  // Mobile tap color
+  &:link {
+    //Highlight links on iOS, Similar to :hover for mobile devices.
+    -webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+  }
 }
 .button {
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 /*********************
@@ -39,10 +39,10 @@ TEXT STYLES
 *********************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
-	// Removing text decoration from all headline links
-	a {
-		text-decoration: none;
-	}
+  // Removing text decoration from all headline links
+  a {
+    text-decoration: none;
+  }
 }
 
 h1, .h1 {
@@ -61,70 +61,70 @@ h5, .h5 {
 }
 
 .font-slab {
-	font-family: 'Roboto Slab';
+  font-family: 'Roboto Slab';
 }
 
 [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
-	height: rem-calc(48);
-	padding: 0 1rem;
-	line-height: rem-calc(48);
+  height: rem-calc(48);
+  padding: 0 1rem;
+  line-height: rem-calc(48);
 }
 
 /*********************
 HEADER STYLES
 *********************/
 .header {
-	box-shadow: 0 1px 0 #ddd;
-	ul.off-canvas-list li {
-		list-style: none;
-	}
+  box-shadow: 0 1px 0 #ddd;
+  ul.off-canvas-list li {
+    list-style: none;
+  }
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
 .top-bar {
-	.logo {
-		height: rem-calc(66);
-		width: auto;
-		margin: $grid-column-gutter/-2 0;
-	}
-	.top-bar-right {
-		@include breakpoint(small only) {
-			margin-top: $grid-column-gutter/2;
-		}
-	}
-	.title-area {
-		z-index: 1;
-	}
+  .logo {
+    height: rem-calc(66);
+    width: auto;
+    margin: $grid-column-gutter/-2 0;
+  }
+  .top-bar-right {
+    @include breakpoint(small only) {
+      margin-top: $grid-column-gutter/2;
+    }
+  }
+  .title-area {
+    z-index: 1;
+  }
 }
 
 #mainMenuToggler {
-	@include hamburger($anchor-color, $anchor-color-hover);
-	margin: 0.7rem 0.5rem;
+  @include hamburger($anchor-color, $anchor-color-hover);
+  margin: 0.7rem 0.5rem;
 }
 
 .off-canvas-list {
-	ul {
-		margin-left: 0;
-		li {
-			a {
-				border-bottom: 0px;
-			}
-		}
-		.dropdown {
-			margin-left: 20px;
-		}
-	}
+  ul {
+    margin-left: 0;
+    li {
+      a {
+        border-bottom: 0px;
+      }
+    }
+    .dropdown {
+      margin-left: 20px;
+    }
+  }
 }
 
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 #content {
-	#inner-content {
-		padding: $grid-column-gutter/2 0rem;
-	}
+  #inner-content {
+    padding: $grid-column-gutter/2 0rem;
+  }
 }
 
 .single-title,
@@ -138,15 +138,15 @@ POSTS & CONTENT STYLES
 
 .page-title {
 
-	// Remove Foundation vcard styling from author page titles
-	.vcard {
-		border: 0px;
-		padding: 0px;
-	}
+  // Remove Foundation vcard styling from author page titles
+  .vcard {
+    border: 0px;
+    padding: 0px;
+  }
 }
 
 .article-header {
-	margin-bottom: $grid-column-gutter/2;
+  margin-bottom: $grid-column-gutter/2;
 }
 
 .archive-title {
@@ -155,111 +155,111 @@ POSTS & CONTENT STYLES
 
 // Posts
 .post + .post {
-	box-shadow: 0 -1px 0 #ddd;
-	margin-top: $grid-column-gutter;
-	padding-top: $grid-column-gutter;
+  box-shadow: 0 -1px 0 #ddd;
+  margin-top: $grid-column-gutter;
+  padding-top: $grid-column-gutter;
 }
 
 // Post meta
 .byline {
-	color: #999;
-	time {}
+  color: #999;
+  time {}
 }
 
 // Entry content
 .entry-content {
 
-	img {
-		max-width: 100%;
-		height: auto;
-	}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-	.alignleft, img.alignleft {
-		margin-right: 1.5em;
-		display: inline;
-		float: left;
-	}
-	.alignright, img.alignright {
-		margin-left: 1.5em;
-		display: inline;
-		float: right;
-	}
-	.aligncenter, img.aligncenter {
-		margin-right: auto;
-		margin-left: auto;
-		display: block;
-		clear: both;
-	}
+  .alignleft, img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left;
+  }
+  .alignright, img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right;
+  }
+  .aligncenter, img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
+  }
 
-	video, object {
-		max-width: 100%;
-		height: auto;
-		}
+  video, object {
+    max-width: 100%;
+    height: auto;
+    }
 
-	pre {
-		background: #eee;
-		border: 1px solid #cecece;
-		padding: 10px;
-		}
+  pre {
+    background: #eee;
+    border: 1px solid #cecece;
+    padding: 10px;
+    }
 
 }
 
 .wp-caption {
-	max-width: 100%;
-	background: #fff;
-	padding: 5px;
+  max-width: 100%;
+  background: #fff;
+  padding: 5px;
 
-	// Images inside wp-caption
-	img {
-		max-width: 100%;
-		margin-bottom: 0;
-		width: 100%;
-	}
+  // Images inside wp-caption
+  img {
+    max-width: 100%;
+    margin-bottom: 0;
+    width: 100%;
+  }
 
-	p.wp-caption-text {
-		font-size: 0.85em;
-		margin: 4px 0 7px;
-		text-align: center;
-	}
+  p.wp-caption-text {
+    font-size: 0.85em;
+    margin: 4px 0 7px;
+    text-align: center;
+  }
 }
 
 // Add Foundation styling to password protect button
 .post-password-form input[type="submit"] {
-	@include button;
+  @include button;
 }
 
 /*********************
 IMAGE GALLERY STYLES
 *********************/
 .gallery {
-	@include grid-row;
-	@for $i from 1 through $block-grid-max {
-		&.gallery-columns-#{$i} {
-			@include grid-layout($i, dl);
-		}
-	}
-	margin: 0 $grid-column-gutter/-8;
+  @include grid-row;
+  @for $i from 1 through $block-grid-max {
+    &.gallery-columns-#{$i} {
+      @include grid-layout($i, dl);
+    }
+  }
+  margin: 0 $grid-column-gutter/-8;
 
-	dl {
-		@include grid-column($grid-column-count, $grid-column-gutter/4);
-		// @include grid-column-collapse;
+  dl {
+    @include grid-column($grid-column-count, $grid-column-gutter/4);
+    // @include grid-column-collapse;
 
-		a {}
+    a {}
 
-		img {}
+    img {}
 
-	}
+  }
 
-	dt {}
+  dt {}
 
-	dd {}
+  dd {}
 
 }
 
 // Gallery caption styles
 .gallery-caption {
-	text-align: center;
-	font-size: $small-font-size;
+  text-align: center;
+  font-size: $small-font-size;
 }
 .size-full {}
 .size-large {}
@@ -270,166 +270,166 @@ IMAGE GALLERY STYLES
 PAGE NAVI STYLES
 *********************/
 .page-navigation {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 /*********************
 COMMENT STYLES
 *********************/
 #comments {
-	.commentlist {
-		margin-left: 0px;
-	}
+  .commentlist {
+    margin-left: 0px;
+  }
 }
 
 #respond {
-	ul {
-		margin-left: 0px;
-	}
+  ul {
+    margin-left: 0px;
+  }
 }
 
 .commentlist {
-	li {
-		position: relative;
-		clear: both;
-		overflow: hidden;
-		list-style-type: none;
-		margin-bottom: 1.5em;
-		padding: 0.7335em 10px;
+  li {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+    padding: 0.7335em 10px;
 
-		&:last-child {
-			margin-bottom: 0;
-		}
+    &:last-child {
+      margin-bottom: 0;
+    }
 
-		ul.children {
-			margin: 0;
+    ul.children {
+      margin: 0;
 
-			li {}
+      li {}
 
-			.comment {}
-			.alt {}
-			.odd {}
-			.even {}
-			.depth-1 {}           // Change number for different depth
-			.byuser {}
-			.bypostauthor {}
-			.comment-author-admin {}
+      .comment {}
+      .alt {}
+      .odd {}
+      .even {}
+      .depth-1 {}           // Change number for different depth
+      .byuser {}
+      .bypostauthor {}
+      .comment-author-admin {}
 
-		}
-	}
+    }
+  }
 
-	li[class*=depth-] {
-		margin-top: 1.1em;
-	}
+  li[class*=depth-] {
+    margin-top: 1.1em;
+  }
 
-	li.depth-1 {
-		margin-left: 0;
-		margin-top: 0;
-	}
+  li.depth-1 {
+    margin-left: 0;
+    margin-top: 0;
+  }
 
-	li:not(.depth-1) {
-		margin-left: 10px;
-		margin-top: 0;
-		padding-bottom: 0;
-	}
+  li:not(.depth-1) {
+    margin-left: 10px;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
 
-	li.depth-2 {}
-	li.depth-3 {
-	}
-	li.depth-4 {}
-	li.depth-5 {}
+  li.depth-2 {}
+  li.depth-3 {
+  }
+  li.depth-4 {}
+  li.depth-5 {}
 
-	// General comment classes
-	.alt {}
-	.odd {
-	}
-	.even {
-	}
-	.parent {}
-	.comment {}
-	.children {}
-	.pingback {}
-	.bypostauthor {}
-	.comment-author {}
-	.comment-author-admin {}
-	.thread-alt {}
-	.thread-odd {}
-	.thread-even {}
+  // General comment classes
+  .alt {}
+  .odd {
+  }
+  .even {
+  }
+  .parent {}
+  .comment {}
+  .children {}
+  .pingback {}
+  .bypostauthor {}
+  .comment-author {}
+  .comment-author-admin {}
+  .thread-alt {}
+  .thread-odd {}
+  .thread-even {}
 
-	// vcard
-	.vcard {
-		margin-left: 50px;
+  // vcard
+  .vcard {
+    margin-left: 50px;
 
-		cite.fn {
-			font-weight: 700;
-			font-style: normal;
+    cite.fn {
+      font-weight: 700;
+      font-style: normal;
 
-			a.url {}
+      a.url {}
 
-		}
+    }
 
-		time {
-			float: right;
+    time {
+      float: right;
 
-			a {
-				color: #999;
-				text-decoration: none;
+      a {
+        color: #999;
+        text-decoration: none;
 
-				&:hover {
-					text-decoration: underline;
-				}
+        &:hover {
+          text-decoration: underline;
+        }
 
-			}
+      }
 
-		}
+    }
 
-		img.photo {}
+    img.photo {}
 
-		img.avatar {
-			position: absolute;
-			left: 10px;
-			padding: 2px;
-			border: 1px solid #cecece;
-			background: #fff;
-		}
+    img.avatar {
+      position: absolute;
+      left: 10px;
+      padding: 2px;
+      border: 1px solid #cecece;
+      background: #fff;
+    }
 
-	} // end .commentlist .vcard
+  } // end .commentlist .vcard
 
 
-	// comment meta
-	.comment-meta {
+  // comment meta
+  .comment-meta {
 
-		a {}
+    a {}
 
-	}
+  }
 
-	.commentmetadata {
+  .commentmetadata {
 
-		a {}
+    a {}
 
-	}
+  }
 
-	// comment content
-	.comment_content {
+  // comment content
+  .comment_content {
 
-		p {
-			margin: 0.7335em 0 1.5em;
-			font-size: 1em;
-			line-height: 1.5em;
-		}
+    p {
+      margin: 0.7335em 0 1.5em;
+      font-size: 1em;
+      line-height: 1.5em;
+    }
 
-	} // end .commentlist .comment_content
+  } // end .commentlist .comment_content
 
-	// comment reply link
-	.comment-reply-link {
-		float: right;
+  // comment reply link
+  .comment-reply-link {
+    float: right;
 
-		&:hover,
-		&:focus {
+    &:hover,
+    &:focus {
 
-		}
+    }
 
-	} // end .commentlist .comment-reply-link
+  } // end .commentlist .comment-reply-link
 
 } // end .commentlist
 
@@ -437,62 +437,62 @@ COMMENT STYLES
 COMMENT FORM STYLES
 *********************/
 .respond-form {
-	margin: 1.5em 10px;
-	padding-bottom: 2.2em;
+  margin: 1.5em 10px;
+  padding-bottom: 2.2em;
 
-	form {
-		margin: 0.75em 0;
+  form {
+    margin: 0.75em 0;
 
-		li {
-			list-style-type: none;
-			clear: both;
-			margin-bottom: 0.7335em;
+    li {
+      list-style-type: none;
+      clear: both;
+      margin-bottom: 0.7335em;
 
-			label,
-			small {
-				display: none;
-			}
-		}
+      label,
+      small {
+        display: none;
+      }
+    }
 
-		input[type=text],
-		input[type=email],
-		input[type=url],
-		textarea {
-			padding: 3px 6px;
-			background: #efefef;
-			border: 2px solid #cecece;
-			line-height: 1.5em;
+    input[type=text],
+    input[type=email],
+    input[type=url],
+    textarea {
+      padding: 3px 6px;
+      background: #efefef;
+      border: 2px solid #cecece;
+      line-height: 1.5em;
 
-			&:focus {
-				background: #fff;
-			}
+      &:focus {
+        background: #fff;
+      }
 
-			// form validation
-			&:invalid {
-				outline: none;
-				border-color: #fbc2c4;
-				background-color: #f6e7eb;
-				-webkit-box-shadow: none;
-				   -moz-box-shadow: none;
-				    -ms-box-shadow: none;
-						box-shadow: none;
-			}
-		}
+      // form validation
+      &:invalid {
+        outline: none;
+        border-color: #fbc2c4;
+        background-color: #f6e7eb;
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+            -ms-box-shadow: none;
+            box-shadow: none;
+      }
+    }
 
-		input[type=text],
-		input[type=email],
-		input[type=url] {
-			max-width: 400px;
-			min-width: 250px;
-		}
+    input[type=text],
+    input[type=email],
+    input[type=url] {
+      max-width: 400px;
+      min-width: 250px;
+    }
 
-		textarea {
-			resize: none;
-			width: 97.3%;
-			height: 150px;
-		}
+    textarea {
+      resize: none;
+      width: 97.3%;
+      height: 150px;
+    }
 
-	}
+  }
 }
 
 // comment submit button
@@ -500,12 +500,12 @@ COMMENT FORM STYLES
 
 // comment form title
 #comment-form-title {
-	margin: 0 0 1.1em;
+  margin: 0 0 1.1em;
 }
 
 // cancel comment reply link
 #cancel-comment-reply {
-	a {}
+  a {}
 }
 
 // logged in comments
@@ -513,105 +513,105 @@ COMMENT FORM STYLES
 
 // allowed tags
 #allowed_tags {
-	margin: 1.5em 10px 0.7335em 0;
+  margin: 1.5em 10px 0.7335em 0;
 }
 
 // No comments
 .nocomments {
-	margin: 0 20px 1.1em;
+  margin: 0 20px 1.1em;
 }
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
 .sidebar {
-	box-shadow: -1px 0 0 #ddd;
+  box-shadow: -1px 0 0 #ddd;
 }
 
 #searchsubmit {
 }
 
 .widgettitle {
-	font-size: rem-calc(19);
+  font-size: rem-calc(19);
 }
 
 .widget {
-	margin-bottom: $grid-column-gutter/2;
-	ul {
-		margin: 0;
+  margin-bottom: $grid-column-gutter/2;
+  ul {
+    margin: 0;
 
-		li {
-			list-style: none;
+    li {
+      list-style: none;
 
-			&:first-child {}
+      &:first-child {}
 
-			&:last-child {}
+      &:last-child {}
 
-			a {}
+      a {}
 
-			// deep nesting
-			ul {}
+      // deep nesting
+      ul {}
 
-		}
-	}
+    }
+  }
 
-	.menu > li {
+  .menu > li {
     display: block;
-	}
-	.menu > li > a {
-		display: inline;
-		padding: 0;
-		line-height: inherit;
-	}
+  }
+  .menu > li > a {
+    display: inline;
+    padding: 0;
+    line-height: inherit;
+  }
 }
 /*********************
 FOOTER STYLES
 *********************/
 .footer {
-	clear: both;
-	padding: $grid-column-gutter 0;
-	background-color: $medium-gray;
-	color: #c0c0c0;
-	a {
-		color: #eee;
-		&:hover {
-			color: #fff;
-		}
-	}
-	.vertical-footer-menu {
-		font-size: rem-calc(14);
-		margin-bottom: $grid-column-gutter;
-		li {
-			margin-bottom: rem-calc(12);
-		}
-	}
-	.social-links {
-		a {
-			opacity: 0.6;
-	    margin: 0 1rem 1rem;
-			&:hover {
-				opacity: 1;
-			}
-		}
-		img {
-			width: 40px;
-    	height: 40px;
-		}
-	}
+  clear: both;
+  padding: $grid-column-gutter 0;
+  background-color: $medium-gray;
+  color: #c0c0c0;
+  a {
+    color: #eee;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .vertical-footer-menu {
+    font-size: rem-calc(14);
+    margin-bottom: $grid-column-gutter;
+    li {
+      margin-bottom: rem-calc(12);
+    }
+  }
+  .social-links {
+    a {
+      opacity: 0.6;
+      margin: 0 1rem 1rem;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }
 
 /*********************
 FOUNDATION STYLES
 *********************/
 .screen-reader-text {
-	@extend .show-for-sr;
+  @extend .show-for-sr;
 }
 .widget_search .search-submit {
-	@extend .show-for-sr;
+  @extend .show-for-sr;
 }
 .flex-video {
-	padding-top: 0;
-	margin: $paragraph-margin-bottom*2 0;
+  padding-top: 0;
+  margin: $paragraph-margin-bottom*2 0;
 }
 
 /*********************
@@ -627,21 +627,21 @@ PLUGIN STYLES
 Category Archive Template
 *********************/
 .artiphon-category-archive {
-	ul {
-		list-style: none;
-		margin-left: 0;
-		li {
-			display: inline-block;
-			margin: 0 $paragraph-margin-bottom $paragraph-margin-bottom 0;
-			background-color: $secondary-color;
-			color: $white;
-			padding: 0 rem-calc(10) 0 0;
-			a {
-				@extend .button;
-				margin: 0 rem-calc(5) 0 0;
-			}
-		}
-	}
+  ul {
+    list-style: none;
+    margin-left: 0;
+    li {
+      display: inline-block;
+      margin: 0 $paragraph-margin-bottom $paragraph-margin-bottom 0;
+      background-color: $secondary-color;
+      color: $white;
+      padding: 0 rem-calc(10) 0 0;
+      a {
+        @extend .button;
+        margin: 0 rem-calc(5) 0 0;
+      }
+    }
+  }
 }
 
 /*********************
@@ -649,16 +649,16 @@ MailChimp, Mailing List
 *********************/
 
 .artiphon-mailing-list {
-	background-color: $light-gray;
-	margin-top: rem-calc(20);
-	padding: rem-calc(40) 0 rem-calc(20);
-	[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
-		border-color: $white;
-	}
-	h2 {
-		font-size: rem-calc(20);
-		margin-bottom: $paragraph-margin-bottom;
-	}
+  background-color: $light-gray;
+  margin-top: rem-calc(20);
+  padding: rem-calc(40) 0 rem-calc(20);
+  [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+    border-color: $white;
+  }
+  h2 {
+    font-size: rem-calc(20);
+    margin-bottom: $paragraph-margin-bottom;
+  }
 }
 
 /*********************
@@ -666,88 +666,64 @@ User Guide
 *********************/
 
 .user-guide-diagram {
-	position: relative;
+  position: relative;
 }
 .user-guide-image {
-	height: 0;
-	width: 100%;
-	padding-bottom: 38.4%;
-	background-color: $light-gray;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	&::before {
-		content: '\00a0';
-	}
-}
-.user-guide-callouts {
-	list-style: none;
-	margin: 0;
-	@include breakpoint(large) {
-		height: 0;
-		overflow: visible;
-	}
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%; // this is overridden inline
+  background-color: $light-gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .user-guide-callout {
-	max-width: 100%;
-	.callout {
-		@include breakpoint(large) {
-			background-color: rgba(255,255,255,0.85);
-		}
-		border: 0;
-		box-shadow: 0 0 0.25rem rgba(0,0,0,0.3);
-		small {
-			display: block;
-			margin-bottom: $paragraph-margin-bottom/2;
-		}
-	}
-	@include breakpoint(medium) {
-		margin: -8% 22% 0;
-	}
-	@include breakpoint(large) {
-		margin: 0;
-		width: 16rem;
-		position: absolute;
-		top: 42.5%;
-		&.volume { 			right: 25.5%; }
-		&.bridge { 			right: 30.8%; }
-		&.capo { 				right: 35.3%; }
-		&.fingerboard { left: 40.4%; }
-		&.speakers { 		left: 15.6%; }
-	}
+  max-width: 100%;
+  border: 0;
+  box-shadow: 0 0 0.25rem rgba(0,0,0,0.3);
+  @include breakpoint(large) {
+    background-color: rgba(255,255,255,0.85);
+  }
+  small {
+    display: block;
+    margin-bottom: $paragraph-margin-bottom/2;
+  }
+  @include breakpoint(medium down) {
+    right: auto !important;
+    left: auto !important;
+  }
+  @include breakpoint(medium) {
+    margin: -8% 22% 0;
+  }
+  @include breakpoint(large) {
+    margin: 0;
+    width: 16rem;
+    position: absolute;
+    top: 42.5%;
+  }
 }
 
-.user-guide-buttons {
-	list-style: none;
-	margin: 0;
-}
 .user-guide-button {
-	display: inline-block;
-	background-color: transparentize($dark-gray, 0.5);
-	width: 1.5rem;
-	height: 1.5rem;
-	margin: -0.75rem 0 0 -0.75rem;
-	border: solid 0.375rem rgba(255,255,255,0.5);
-	border-radius: 100%;
-	position: absolute;
-	box-shadow: 0 0 0.25rem rgba(0,0,0,0.3);
-	background-clip: content-box;
-	top: 57.5%;
-	outline: none;
-	&:hover {
-		background-color: $primary-color;
-	}
-	@include breakpoint(large) {
-		width: 2.5rem;
-		height: 2.5rem;
-		margin: -1.25rem 0 0 -1.25rem;
-		border-width: 0.625rem;
-	}
-	.volume & { 			left: 74.5%; }
-	.bridge & { 			left: 69.2%; }
-	.capo & { 				left: 64.7%; }
-	.fingerboard & { 	left: 40.4%; }
-	.speaker & { 			left: 15.6%; }
-	.speaker-2 & { 		left: 80.6%; }
+  display: inline-block;
+  background-color: transparentize($dark-gray, 0.5);
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: -0.75rem -0.75rem 0 -0.75rem;
+  border: solid 0.375rem rgba(255,255,255,0.5);
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: 0 0 0.25rem rgba(0,0,0,0.3);
+  background-clip: content-box;
+  top: 57.5%;
+  outline: none;
+  &:hover {
+    background-color: $primary-color;
+  }
+  @include breakpoint(large) {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: -1.25rem -1.25rem 0 -1.25rem;
+    border-width: 0.625rem;
+  }
 }

@@ -4,65 +4,75 @@ Template Name: User Guide
 */
 ?>
 
- <?php get_header(); ?>
+<?php get_header(); ?>
+
 
 	<div id="content">
 
-    <div class="user-guide-diagram">
-      <div class="user-guide-image" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/images/instrument-1-on-wood.jpg');">
-        <ul class="user-guide-buttons">
-          <li class="volume"><button class="user-guide-button">&nbsp;</button></li>
-          <li class="bridge"><button class="user-guide-button">&nbsp;</button></li>
-          <li class="capo"><button class="user-guide-button">&nbsp;</button></li>
-          <li class="fingerboard"><button class="user-guide-button">&nbsp;</button></li>
-          <li class="speaker"><button class="user-guide-button">&nbsp;</button></li>
-          <li class="speaker-2"><button class="user-guide-button">&nbsp;</button></li>
-        </ul>
-      </div>
-      <ul class="user-guide-callouts">
-        <li class="user-guide-callout volume">
-          <div class="callout">
-            <h6>Volume &amp; Preset Knob</h6>
-            <small>The knob  is turned to control volume, and presses to cycle between playing presets.</small>
-            <a href="#" class="button small expanded">LEARN MORE</a>
-          </div>
-        </li>
-        <li class="user-guide-callout speakers">
-          <div class="callout">
-            <h6>Speakers</h6>
-            <small>The INSTRUMENT 1 has on-board stereo speakers, 3-Watt amplifier, and ⅛-inch stereo output for headphones or external speakers.</small>
-            <a href="#" class="button small expanded">LEARN MORE</a>
-          </div>
-        </li>
-        <li class="user-guide-callout fingerboard">
-          <div class="callout">
-            <h6>Fingerboard</h6>
-            <small>The pressure-sensitive fingerboard can be played in fretted, fretless, grid, and pad modes.</small>
-            <a href="#" class="button small expanded">LEARN MORE</a>
-          </div>
-        </li>
-        <li class="user-guide-callout capo">
-          <div class="callout">
-            <h6>Capo Buttons</h6>
-            <small>Digital capo buttons transpose the tuning of the INSTRUMENT 1 twelve half-steps either up or down.</small>
-            <a href="#" class="button small expanded">LEARN MORE</a>
-          </div>
-        </li>
-        <li class="user-guide-callout bridge">
-          <div class="callout">
-            <h6>Bridge</h6>
-            <small>The bridge can be strummed, tapped, plucked, and bowed.</small>
-            <a href="#" class="button small expanded">LEARN MORE</a>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <?php
+      if( is_page() && $post->post_parent == 0 && has_post_thumbnail() ) {
 
-		<div id="inner-content" class="row">
+        $thumb_id = get_post_thumbnail_id( $post->ID );
+        $thumb_img = wp_get_attachment_image_src( $thumb_id, 'full' );
+        $thumb_width = $thumb_img[1];
+        $thumb_height = $thumb_img[2];
+        $ratio = $thumb_height / $thumb_width;
+        $percent = (float)$ratio * 100 . '%';
+      ?>
+
+    <div class="user-guide-diagram">
+      <div class="user-guide-image" style="padding-bottom:<?php echo $percent; ?>">
+        <?php the_post_thumbnail('full'); ?>
+        <?php
+        $pagechildren = get_pages( array( 'child_of' => $post->ID ) );
+        foreach ( $pagechildren as $post ) :
+          setup_postdata( $post );
+          ?><button class="user-guide-button" style="<?php
+          $mykey_values = get_post_custom_values( 'popup-position' );
+            foreach ( $mykey_values as $key => $value ) {
+              echo $value;
+            }
+          ?>" data-popup="popup-<?php the_ID(); ?>">&nbsp;</button><?php
+        endforeach; ?>
+        <?php wp_reset_postdata(); ?>
+      </div>
+
+      <?php
+      $pagechildren = get_pages( array( 'child_of' => $post->ID ) );
+      foreach ( $pagechildren as $post ) :
+        setup_postdata( $post );
+        ?><div class="user-guide-callout callout hide" id="popup-<?php the_ID(); ?>" style="<?php
+        $mykey_values = get_post_custom_values( 'popup-position' );
+          foreach ( $mykey_values as $key => $value ) {
+            echo $value;
+          }
+        ?>">
+          <h6><?php
+            $popupTitle = get_post_custom_values( 'popup-title' );
+              foreach ( $popupTitle as $key => $value ) {
+                echo $value;
+              }
+          ?></h6>
+
+          <small><?php
+            $popupText = get_post_custom_values( 'popup-text' );
+              foreach ( $popupText as $key => $value ) {
+                echo $value;
+              }
+          ?></small>
+          <a href="<?php the_permalink(); ?>" class="button small expanded">LEARN MORE</a>
+          <button class="close-button popup-close-button" type="button">&times;</button>
+        </div>
+      <?php endforeach; ?>
+      <?php wp_reset_postdata(); ?>
+    </div>
+    <?php } ?>
+
+  		<div id="inner-content" class="row">
 
 		    <main id="main" class="medium-8 large-9 columns" role="main">
 
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+				  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			    	<?php get_template_part( 'parts/loop', 'page' ); ?>
 
@@ -70,7 +80,7 @@ Template Name: User Guide
 
 			</main> <!-- end #main -->
 
-		    <?php get_sidebar(); ?>
+		    <?php get_sidebar('user-guide'); ?>
 
 		</div> <!-- end #inner-content -->
 

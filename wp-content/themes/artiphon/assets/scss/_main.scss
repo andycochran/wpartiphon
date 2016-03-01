@@ -690,6 +690,7 @@ User Guide
     margin-bottom: $paragraph-margin-bottom/2;
   }
   @include breakpoint(medium down) {
+    top: auto !important;
     right: auto !important;
     left: auto !important;
   }

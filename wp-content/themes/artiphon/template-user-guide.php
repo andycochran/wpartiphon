@@ -41,27 +41,43 @@ Template Name: User Guide
       $pagechildren = get_pages( array( 'child_of' => $post->ID ) );
       foreach ( $pagechildren as $post ) :
         setup_postdata( $post );
-        ?><div class="user-guide-callout callout hide" id="popup-<?php the_ID(); ?>" style="<?php
-        $mykey_values = get_post_custom_values( 'popup-position' );
-          foreach ( $mykey_values as $key => $value ) {
-            echo $value;
+        ?><div class="user-guide-callout callout hide" id="popup-<?php the_ID(); ?>"<?php
+          $popupPosition = get_post_custom_values( 'popup-position' );
+          if ( $popupPosition ) {
+            ?>style="<?php
+            foreach ( $popupPosition as $key => $value ) {
+              echo $value;
+            }
+            ?>"<?php
           }
-        ?>">
+        ?>>
           <h6><?php
             $popupTitle = get_post_custom_values( 'popup-title' );
+            if ( $popupTitle ) {
               foreach ( $popupTitle as $key => $value ) {
                 echo $value;
               }
+            }
           ?></h6>
-
           <small><?php
             $popupText = get_post_custom_values( 'popup-text' );
+            if ( $popupText ) {
               foreach ( $popupText as $key => $value ) {
                 echo $value;
               }
+            }
           ?></small>
-          <a href="<?php the_permalink(); ?>" class="button small expanded">LEARN MORE</a>
           <button class="close-button popup-close-button" type="button">&times;</button>
+          <?php
+            $popupLink = get_post_custom_values( 'popup-link' );
+            if ( $popupLink ) {
+              foreach ( $popupLink as $key => $value ) {
+                ?><a href="<?php
+                echo $value;
+                ?>" class="button small expanded">LEARN MORE</a><?php
+              }
+            }
+          ?>
         </div>
       <?php endforeach; ?>
       <?php wp_reset_postdata(); ?>

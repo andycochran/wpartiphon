@@ -4566,6 +4566,7 @@ User Guide
     margin-bottom: 0.8rem; }
   @media screen and (max-width: 63.9375em) {
     .user-guide-callout {
+      top: auto !important;
       right: auto !important;
       left: auto !important; } }
   @media screen and (min-width: 32em) {

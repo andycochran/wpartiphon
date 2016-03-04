@@ -14,9 +14,7 @@ p:empty {
 ol {
   margin-left: 1.25rem;
 }
-li {
-  margin-bottom: $paragraph-margin-bottom * 0.75;
-}
+li {}
 
 /*********************
 LINK STYLES
@@ -542,6 +540,7 @@ SIDEBARS & ASIDES
 
     li {
       list-style: none;
+      margin-bottom: $paragraph-margin-bottom * 0.5;
 
       &:first-child {}
 

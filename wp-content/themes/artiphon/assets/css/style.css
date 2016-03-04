@@ -4084,9 +4084,6 @@ p:empty {
 ol {
   margin-left: 1.25rem; }
 
-li {
-  margin-bottom: 1.2rem; }
-
 /*********************
 LINK STYLES
 *********************/
@@ -4462,7 +4459,8 @@ SIDEBARS & ASIDES
   .widget ul {
     margin: 0; }
     .widget ul li {
-      list-style: none; }
+      list-style: none;
+      margin-bottom: 0.8rem; }
   .widget .menu > li {
     display: block; }
   .widget .menu > li > a {

@@ -698,7 +698,7 @@ User Guide
   }
   @include breakpoint(large) {
     margin: 0;
-    width: 16rem;
+    max-width: 16rem;
     position: absolute;
     top: 42.5%;
   }

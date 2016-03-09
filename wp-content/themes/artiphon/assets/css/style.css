@@ -4573,7 +4573,7 @@ User Guide
   @media screen and (min-width: 64em) {
     .user-guide-callout {
       margin: 0;
-      width: 16rem;
+      max-width: 16rem;
       position: absolute;
       top: 42.5%; } }
 

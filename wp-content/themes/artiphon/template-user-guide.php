@@ -7,18 +7,35 @@ Template Name: User Guide
 <?php get_header(); ?>
 
 
-	<div id="content">
+  <div id="content">
 
     <?php
-      if( is_page() && $post->post_parent == 0 && has_post_thumbnail() ) {
+    if( is_page() && $post->post_parent == 0 && has_post_thumbnail() ) {
 
-        $thumb_id = get_post_thumbnail_id( $post->ID );
-        $thumb_img = wp_get_attachment_image_src( $thumb_id, 'full' );
-        $thumb_width = $thumb_img[1];
-        $thumb_height = $thumb_img[2];
-        $ratio = $thumb_height / $thumb_width;
-        $percent = (float)$ratio * 100 . '%';
-      ?>
+      $thumb_id = get_post_thumbnail_id( $post->ID );
+      $thumb_img = wp_get_attachment_image_src( $thumb_id, 'full' );
+      $thumb_width = $thumb_img[1];
+      $thumb_height = $thumb_img[2];
+      $ratio = $thumb_height / $thumb_width;
+      $percent = (float)$ratio * 100 . '%';
+    ?>
+
+    <div class="text-center user-guide-header">
+    <?php
+      $alt = get_post_meta($thumb_id, '_wp_attachment_image_alt', true);
+      if(count($alt)) {
+        ?><h1><?php
+        echo $alt;
+        ?></h1><?php
+      }
+      $descr = get_post( get_post_thumbnail_id() )->post_content;
+      if(count($descr)) {
+        ?><p><?php
+        echo $descr;
+        ?></p><?php
+      }
+    ?>
+    </div>
 
     <div class="user-guide-diagram">
       <div class="user-guide-image" style="padding-bottom:<?php echo $percent; ?>">
@@ -84,22 +101,22 @@ Template Name: User Guide
     </div>
     <?php } ?>
 
-  		<div id="inner-content" class="row">
+      <div id="inner-content" class="row">
 
-		    <main id="main" class="medium-8 large-9 columns" role="main">
+        <main id="main" class="medium-8 large-9 columns" role="main">
 
-				  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			    	<?php get_template_part( 'parts/loop', 'page' ); ?>
+            <?php get_template_part( 'parts/loop', 'page' ); ?>
 
-			    <?php endwhile; endif; ?>
+          <?php endwhile; endif; ?>
 
-			</main> <!-- end #main -->
+      </main> <!-- end #main -->
 
-		    <?php get_sidebar('user-guide'); ?>
+        <?php get_sidebar('user-guide'); ?>
 
-		</div> <!-- end #inner-content -->
+    </div> <!-- end #inner-content -->
 
-	</div> <!-- end #content -->
+  </div> <!-- end #content -->
 
 <?php get_footer(); ?>

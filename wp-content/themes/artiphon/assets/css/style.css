@@ -4540,7 +4540,8 @@ MailChimp, Mailing List
 User Guide
 *********************/
 .user-guide-diagram {
-  position: relative; }
+  position: relative;
+  z-index: 1; }
 
 .user-guide-image {
   height: 0;
@@ -4598,6 +4599,21 @@ User Guide
       height: 2.5rem;
       margin: -1.25rem -1.25rem 0 -1.25rem;
       border-width: 0.625rem; } }
+
+.user-guide-header {
+  padding: 40px 40px 20px; }
+  @media screen and (min-width: 64em) {
+    .user-guide-header {
+      padding: 0;
+      height: 0;
+      overflow: visible;
+      position: relative;
+      z-index: 2;
+      color: #fefefe;
+      font-size: 1.25rem; }
+      .user-guide-header h1 {
+        font-size: 2.5rem;
+        padding-top: 4%; } }
 
 /******************************************************************
 

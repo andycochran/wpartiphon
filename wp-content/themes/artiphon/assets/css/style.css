@@ -2088,13 +2088,13 @@ h3 {
   font-size: 1.5rem; }
 
 h4 {
-  font-size: 1.5rem; }
+  font-size: 1.125rem; }
 
 h5 {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 h6 {
-  font-size: 1.125rem; }
+  font-size: 1rem; }
 
 a {
   color: #b13d33;
@@ -4099,6 +4099,9 @@ TEXT STYLES
 *********************/
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none; }
+
+h5, .h5 {
+  font-weight: bold; }
 
 .font-slab {
   font-family: 'Roboto Slab'; }

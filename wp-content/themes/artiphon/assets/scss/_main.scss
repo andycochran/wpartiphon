@@ -745,3 +745,26 @@ User Guide
     }
   }
 }
+
+
+/*********************
+Tabs
+*********************/
+.tabs {
+}
+.tabs-title {
+  img {
+    width: 45px;
+  }
+  .expanded-5 & {
+    width: 20%;
+    a {
+      padding: rem-calc(6) rem-calc(6) rem-calc(16);
+    }
+    img {
+      width: 45px;
+      display: block;
+      margin: auto;
+    }
+  }
+}

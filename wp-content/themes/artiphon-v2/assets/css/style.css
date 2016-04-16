@@ -4070,7 +4070,7 @@ table.hover tr:nth-of-type(even):hover {
     transform: translateY(-50%); }
 
 .top-bar {
-  padding: 0.5rem; }
+  padding: 2rem 0; }
   .top-bar::before, .top-bar::after {
     content: ' ';
     display: table;
@@ -4084,7 +4084,7 @@ table.hover tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #f1f1f1; }
+    background-color: #fff; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }

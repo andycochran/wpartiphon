@@ -1,15 +1,28 @@
 /************************************************
 
-Stylesheet: Main Stylesheet
+ Stylesheet: Main Stylesheet
 
 *************************************************/
 
 /*********************
-GENERAL STYLES
+ GENERAL STYLES
 *********************/
+.full-image {
+  width: 100%;
+}
+.alt-background {
+  padding: rem-calc(40) 0 rem-calc(20);
+  &.light-gray {
+    background-color: $light-gray;
+  }
+  &.dark-gray {
+    background-color: $dark-gray;
+  }
+}
+
 
 /*********************
-LINK STYLES
+ LINK STYLES
 *********************/
 a, a:visited {
 
@@ -25,7 +38,7 @@ a, a:visited {
 }
 
 /*********************
-H1, H2, H3, H4, H5 P STYLES
+ H1, H2, H3, H4, H5 P STYLES
 *********************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
@@ -62,7 +75,7 @@ h5, .h5 {
 }
 
 /*********************
-HEADER STYLES
+ HEADER STYLES
 *********************/
 .header {
   box-shadow: 0 1px 0 #ddd;
@@ -72,7 +85,7 @@ HEADER STYLES
 }
 
 /*********************
-NAVIGATION STYLES
+ NAVIGATION STYLES
 *********************/
 #site-header {
   padding: rem-calc(20) 0;
@@ -117,7 +130,7 @@ NAVIGATION STYLES
 }
 
 /*********************
-POSTS & CONTENT STYLES
+ POSTS & CONTENT STYLES
 *********************/
 #content {
 	#inner-content {
@@ -227,7 +240,7 @@ POSTS & CONTENT STYLES
 }
 
 /*********************
-IMAGE GALLERY STYLES
+ IMAGE GALLERY STYLES
 *********************/
 .gallery {
   @include grid-row;
@@ -264,14 +277,14 @@ IMAGE GALLERY STYLES
 .size-thumbnail {}
 
 /*********************
-PAGE NAVI STYLES
+ PAGE NAVI STYLES
 *********************/
 .page-navigation {
 	margin-top: 1rem;
 }
 
 /*********************
-COMMENT STYLES
+ COMMENT STYLES
 *********************/
 #comments {
 	.commentlist {
@@ -431,7 +444,7 @@ COMMENT STYLES
 } // end .commentlist
 
 /*********************
-COMMENT FORM STYLES
+ COMMENT FORM STYLES
 *********************/
 .respond-form {
 	margin: 1.5em 10px;
@@ -519,7 +532,7 @@ COMMENT FORM STYLES
 }
 
 /*********************
-SIDEBARS & ASIDES
+ SIDEBARS & ASIDES
 *********************/
 .sidebar {
   box-shadow: -1px 0 0 #ddd;
@@ -563,7 +576,7 @@ SIDEBARS & ASIDES
   }
 }
 /*********************
-FOOTER STYLES
+ FOOTER STYLES
 *********************/
 .footer {
 	clear: both;
@@ -599,7 +612,7 @@ FOOTER STYLES
 }
 
 /*********************
-FOUNDATION STYLES
+ FOUNDATION STYLES
 *********************/
 .screen-reader-text {
   @extend .show-for-sr;
@@ -609,7 +622,7 @@ FOUNDATION STYLES
 }
 
 /*********************
-PLUGIN STYLES
+ PLUGIN STYLES
 *********************/
 // Makes Gravity Forms play nice with Foundation Form styles
 .gform_body ul {
@@ -618,7 +631,7 @@ PLUGIN STYLES
 }
 
 /*********************
-Category Archive Template
+ Category Archive Template
 *********************/
 .artiphon-category-archive {
   ul {
@@ -639,13 +652,13 @@ Category Archive Template
 }
 
 /*********************
-MailChimp, Mailing List
+ MailChimp, Mailing List
 *********************/
 
 .artiphon-mailing-list {
+  padding: rem-calc(40) 0 rem-calc(20);
   background-color: $light-gray;
   margin-top: rem-calc(20);
-  padding: rem-calc(40) 0 rem-calc(20);
   [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
     border-color: $white;
   }
@@ -655,8 +668,9 @@ MailChimp, Mailing List
   }
 }
 
+
 /*********************
-User Guide
+ User Guide
 *********************/
 
 .user-guide-diagram {
@@ -743,7 +757,7 @@ User Guide
 
 
 /*********************
-Tabs
+ Tabs
 *********************/
 .tabs {
 }
@@ -761,5 +775,59 @@ Tabs
       display: block;
       margin: auto;
     }
+  }
+}
+
+
+/*********************
+ Homepage
+*********************/
+
+.home-intro {
+  @extend .text-center;
+  position: relative;
+  .time-bug {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 161px;
+    max-width: 45%;
+  }
+  .intro-text {
+    padding: 0 map-get($grid-column-gutter, small)/2;
+    @include breakpoint(phablet) {
+      position: absolute;
+      top: rem-calc(20);
+      right: 0;
+      max-width: 26em;
+    }
+    @include breakpoint(large) {
+      top: rem-calc(40);
+      right: 10%;
+    }
+    h1 {
+      font-size: rem-calc(42);
+      @include breakpoint(phablet only) {
+        font-size: rem-calc(30);
+      }
+      small {
+        font-size: 50%;
+        color: $primary-color;
+      }
+    }
+  }
+  & + .mailchimp .callout {
+    max-width: 46rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.overlap-above {
+  @include breakpoint(phablet) {
+    margin-top: rem-calc(-60);
+  }
+  @include breakpoint(large) {
+    margin-top: rem-calc(-80);
   }
 }

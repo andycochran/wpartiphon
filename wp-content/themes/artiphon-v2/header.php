@@ -36,10 +36,6 @@
 
   <body <?php body_class(); ?>>
 
-    <header class="header" role="banner">
-
-        <!-- This navs will be applied to the topbar, above all content
-          To see additional nav styles, visit the /parts directory -->
-        <?php get_template_part( 'parts/nav', 'topbar' ); ?>
-
+    <header id="site-header" class="header" role="banner">
+      <?php get_template_part( 'parts/nav', 'globalbar' ); ?>
     </header> <!-- end .header -->

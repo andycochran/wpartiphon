@@ -1039,8 +1039,8 @@ button {
     padding-left: 0;
     padding-right: 0; }
   .row .row {
-    margin-left: -0.625rem;
-    margin-right: -0.625rem; }
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem; }
     @media screen and (min-width: 40em) {
       .row .row {
         margin-left: -1.25rem;
@@ -1061,8 +1061,8 @@ button {
 .column, .columns {
   width: 100%;
   float: left;
-  padding-left: 0.625rem;
-  padding-right: 0.625rem; }
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
   @media screen and (min-width: 40em) {
     .column, .columns {
       padding-left: 1.25rem;
@@ -1333,8 +1333,8 @@ button {
   margin-right: 0; }
 
 .small-uncollapse > .column, .small-uncollapse > .columns {
-  padding-left: 0.625rem;
-  padding-right: 0.625rem; }
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
 
 .small-centered {
   float: none;
@@ -3194,8 +3194,8 @@ select {
   .menu.nested {
     margin-left: 1rem; }
   .menu .active > a {
-    color: #fff;
-    background: #b13d33; }
+    color: #b13d33;
+    background: transparent; }
 
 .menu-text {
   font-weight: bold;
@@ -4174,17 +4174,24 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-.top-bar .logo {
-  height: 4.125rem;
-  width: auto;
-  margin: -2.5rem 0; }
-
-@media screen and (max-width: 39.9375em) {
-  .top-bar .top-bar-right {
-    margin-top: 2.5rem; } }
-
-.top-bar .title-area {
-  z-index: 1; }
+#site-header {
+  padding: 1.25rem 0; }
+  #site-header .row {
+    position: relative; }
+  #site-header .logo {
+    height: 4.125rem;
+    width: auto; }
+  #site-header .menu-icon {
+    position: absolute;
+    margin-top: -0.5em;
+    top: 50%;
+    right: 15px; }
+    @media screen and (min-width: 40em) {
+      #site-header .menu-icon {
+        right: 20px; } }
+    @media screen and (min-width: 64em) {
+      #site-header .menu-icon {
+        right: 40px; } }
 
 #mainMenuToggler {
   position: relative;
@@ -4556,14 +4563,13 @@ FOOTER STYLES
   background-color: #9d9d9d;
   color: #c0c0c0; }
   .footer a {
-    color: #eee; }
+    color: #f1f1f1; }
     .footer a:hover {
       color: #fff; }
-  .footer .vertical-footer-menu {
-    font-size: 0.875rem;
-    margin-bottom: 5rem; }
-    .footer .vertical-footer-menu li {
-      margin-bottom: 0.75rem; }
+  .footer .no-bullet {
+    margin-bottom: 2.5rem; }
+    .footer .no-bullet li {
+      margin-bottom: 1rem; }
   .footer .social-links a {
     opacity: 0.6;
     margin: 0 1rem 1rem; }
@@ -4576,10 +4582,6 @@ FOOTER STYLES
 /*********************
 FOUNDATION STYLES
 *********************/
-.flex-video {
-  padding-top: 0;
-  margin: 3.2rem 0; }
-
 /*********************
 PLUGIN STYLES
 *********************/

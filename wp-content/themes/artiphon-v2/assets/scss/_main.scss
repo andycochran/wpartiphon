@@ -74,20 +74,27 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-.top-bar {
+#site-header {
+  padding: rem-calc(20) 0;
+  .row {
+    position: relative;
+  }
   .logo {
     height: rem-calc(66);
     width: auto;
-    margin: rem-calc(40)*-1 0;
   }
-  .top-bar-right {
-    @include breakpoint(small only) {
-      margin-top: rem-calc(40);
+  .menu-icon {
+    position: absolute;
+    margin-top: -0.5em;
+    top: 50%;
+    right: map-get($grid-column-gutter, small)/2;
+    @include breakpoint(medium) {
+      right: map-get($grid-column-gutter, medium)/2;
+    }
+    @include breakpoint(large) {
+      right: map-get($grid-column-gutter, large)/2;
     }
   }
-	.title-area {
-		z-index: 1;
-	}
 }
 
 #mainMenuToggler {
@@ -564,16 +571,16 @@ FOOTER STYLES
   background-color: $medium-gray;
   color: #c0c0c0;
   a {
-    color: #eee;
+    color: $light-gray;
     &:hover {
-      color: #fff;
+      color: $white;
     }
   }
-  .vertical-footer-menu {
-    font-size: rem-calc(14);
-    margin-bottom: rem-calc(80);
+  .no-bullet {
+    // font-size: rem-calc(14);
+    margin-bottom: rem-calc(40);
     li {
-      margin-bottom: rem-calc(12);
+      margin-bottom: 1rem;
     }
   }
   .social-links {
@@ -599,10 +606,6 @@ FOUNDATION STYLES
 }
 .widget_search .search-submit {
   @extend .show-for-sr;
-}
-.flex-video {
-  padding-top: 0;
-  margin: $paragraph-margin-bottom*2 0;
 }
 
 /*********************

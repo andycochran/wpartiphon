@@ -24,7 +24,7 @@ require_once(get_template_directory().'/assets/functions/page-navi.php');
 require_once(get_template_directory().'/assets/translation/translation.php');
 
 // Remove 4.2 Emoji Support
-require_once(get_template_directory().'/assets/functions/disable-emoji.php'); 
+require_once(get_template_directory().'/assets/functions/disable-emoji.php');
 
 // Adds site styles to the WordPress editor
 //require_once(get_template_directory().'/assets/functions/editor-styles.php');
@@ -34,6 +34,7 @@ require_once(get_template_directory().'/assets/functions/disable-emoji.php');
 
 // Use this as a template for custom post types
 // require_once(get_template_directory().'/assets/functions/custom-post-type.php');
+require_once(get_template_directory().'/assets/functions/press.php');
 
 // Customize the WordPress login menu
 // require_once(get_template_directory().'/assets/functions/login.php');

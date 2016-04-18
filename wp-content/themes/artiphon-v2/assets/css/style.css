@@ -2073,7 +2073,7 @@ hr {
   border-top: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0;
-  margin: 1.25rem auto;
+  margin: 2.5rem auto;
   clear: both; }
 
 ul,
@@ -2165,7 +2165,7 @@ kbd {
 .text-right {
   text-align: right; }
 
-.text-center, .home-intro {
+.text-center, .home-intro, .press-menu {
   text-align: center; }
 
 .text-justify {
@@ -4454,8 +4454,13 @@ table.hover tr:nth-of-type(even):hover {
   padding: 2.5rem 0 1.25rem; }
   .alt-background.light-gray {
     background-color: #f1f1f1; }
+  .alt-background.medium-gray {
+    background-color: #9d9d9d; }
   .alt-background.dark-gray {
     background-color: #3d3d3c; }
+
+.meta-sep {
+  opacity: 0.5; }
 
 /*********************
  LINK STYLES
@@ -5075,6 +5080,24 @@ h5, .h5 {
 @media screen and (min-width: 64em) {
   .overlap-above {
     margin-top: -5rem; } }
+
+/*********************
+ PRESS PAGES
+*********************/
+.press-menu {
+  padding: 15px;
+  background-color: #9d9d9d;
+  color: #fff; }
+  .press-menu ul {
+    margin: 0;
+    list-style: none; }
+    .press-menu ul li {
+      display: inline; }
+  .press-menu a {
+    color: #fff; }
+  .press-menu .meta-sep {
+    margin-right: 0.625rem;
+    margin-left: 0.625rem; }
 
 /******************************************************************
 

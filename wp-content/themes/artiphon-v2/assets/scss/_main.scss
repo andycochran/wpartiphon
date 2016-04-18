@@ -15,9 +15,15 @@
   &.light-gray {
     background-color: $light-gray;
   }
+  &.medium-gray {
+    background-color: $medium-gray;
+  }
   &.dark-gray {
     background-color: $dark-gray;
   }
+}
+.meta-sep {
+  opacity: 0.5;
 }
 
 
@@ -829,5 +835,30 @@ h5, .h5 {
   }
   @include breakpoint(large) {
     margin-top: rem-calc(-80);
+  }
+}
+
+
+/*********************
+ PRESS PAGES
+*********************/
+.press-menu {
+  @extend .text-center;
+  padding: map-get($grid-column-gutter, small)/2;
+  background-color: $medium-gray;
+  color: $white;
+  ul {
+    margin: 0;
+    list-style: none;
+    li {
+      display: inline;
+    }
+  }
+  a {
+    color: $white;
+  }
+  .meta-sep {
+    margin-right: rem-calc(10);
+    margin-left: rem-calc(10);
   }
 }

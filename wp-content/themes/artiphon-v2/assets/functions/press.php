@@ -3,6 +3,7 @@
 /* Press Custom Post Type  */
 
 function artiphon_press_post_type() {
+  // creating the custom type
   register_post_type( 'artiphon_press',
     array('labels' => array(
       'name' => __('Press', 'jointswp'),
@@ -35,8 +36,38 @@ function artiphon_press_post_type() {
       'supports' => array( 'title', 'editor', 'page-attributes', 'thumbnail')
      )
   );
+  // adds the taxonomy
+  register_taxonomy_for_object_type('artiphon_press_tax', 'artiphon_press');
 }
 add_action( 'init', 'artiphon_press_post_type');
+
+// now let's add custom categories (these act like categories)
+register_taxonomy( 'artiphon_press_tax',
+  array('artiphon_press'),
+  array(
+    'hierarchical' => true,
+    'labels' => array(
+      'name' => __( 'Press Categories', 'jointswp' ),
+      'singular_name' => __( 'Press Category', 'jointswp' ),
+      'menu_name' => 'Categories',
+      'all_items' => __( 'All Press Categories', 'jointswp' ),
+      'edit_item' => __( 'Edit Press Category', 'jointswp' ),
+      'update_item' => __( 'Update Press Category', 'jointswp' ),
+      'add_new_item' => __( 'Add New Press Category', 'jointswp' ),
+      'new_item_name' => __( 'New Custom Press Name', 'jointswp' ),
+      'parent_item' => __( 'Parent Press Category', 'jointswp' ),
+      'parent_item_colon' => __( 'Parent Press Category:', 'jointswp' ),
+      'search_items' =>  __( 'Search Press Categories', 'jointswp' )
+    ),
+    'public' => true,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'show_tagcloud' => false,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'press' ),
+  )
+);
+
 
 // Redirect single post view back to archive
 function redirect_artiphon_press_item() {
@@ -88,7 +119,7 @@ function artiphon_press_options_callback() {
 
       <h1>Press Header Options</h1>
 
-      <form method="post" action="options.php"> 
+      <form method="post" action="options.php">
         <?php settings_fields( 'artiphon_press-options-group' ); ?>
         <?php do_settings_sections( 'artiphon_press-options-group' ); ?>
         <table class="form-table">
@@ -121,3 +152,17 @@ function artiphon_press_options_callback() {
     </div>
     <?php
 }
+
+// Fix taxonomy archive not showing posts
+function modify_artiphon_press_pre_query_request($query){
+  if ($query->is_main_query()){
+    if ($query->is_tax){
+      $post_type = get_query_var('post_type');
+      if (!$post_type){
+        $post_type = array( 'post', 'artiphon_press' );
+        $query->set('post_type', $post_type);
+      }
+    }
+  }
+}
+add_filter('pre_get_posts', 'modify_artiphon_press_pre_query_request');

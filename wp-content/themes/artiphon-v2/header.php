@@ -30,7 +30,9 @@
     <?php wp_head(); ?>
 
     <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Roboto+Slab:100' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Roboto+Slab:100' rel='stylesheet' type='text/css'>
+
+    <script src="//sdks.shopifycdn.com/js-buy-sdk/latest/shopify-buy.polyfilled.globals.min.js"></script>
 
   </head>
 

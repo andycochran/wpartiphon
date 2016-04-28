@@ -2469,7 +2469,7 @@ select {
   .form-error.is-visible {
     display: block; }
 
-.button, .artiphon-category-archive ul li a, #shopify .btn {
+.button, .artiphon-category-archive ul li a, .shopify .btn {
   display: inline-block;
   text-align: center;
   line-height: 1;
@@ -2484,95 +2484,95 @@ select {
   font-size: 0.875rem;
   background-color: #b13d33;
   color: #fff; }
-  [data-whatinput='mouse'] .button, [data-whatinput='mouse'] .artiphon-category-archive ul li a, .artiphon-category-archive ul li [data-whatinput='mouse'] a, [data-whatinput='mouse'] #shopify .btn, #shopify [data-whatinput='mouse'] .btn {
+  [data-whatinput='mouse'] .button, [data-whatinput='mouse'] .artiphon-category-archive ul li a, .artiphon-category-archive ul li [data-whatinput='mouse'] a, [data-whatinput='mouse'] .shopify .btn, .shopify [data-whatinput='mouse'] .btn {
     outline: 0; }
-  .button:hover, .artiphon-category-archive ul li a:hover, #shopify .btn:hover, .button:focus, .artiphon-category-archive ul li a:focus, #shopify .btn:focus {
+  .button:hover, .artiphon-category-archive ul li a:hover, .shopify .btn:hover, .button:focus, .artiphon-category-archive ul li a:focus, .shopify .btn:focus {
     background-color: #96342b;
     color: #fff; }
-  .button.tiny, .artiphon-category-archive ul li a.tiny, #shopify .tiny.btn {
+  .button.tiny, .artiphon-category-archive ul li a.tiny, .shopify .tiny.btn {
     font-size: 0.6rem; }
-  .button.small, .artiphon-category-archive ul li a.small, #shopify .small.btn {
+  .button.small, .artiphon-category-archive ul li a.small, .shopify .small.btn {
     font-size: 0.75rem; }
-  .button.large, .artiphon-category-archive ul li a.large, #shopify .large.btn {
+  .button.large, .artiphon-category-archive ul li a.large, .shopify .large.btn {
     font-size: 1.25rem; }
-  .button.expanded, .artiphon-category-archive ul li a.expanded, #shopify .expanded.btn {
+  .button.expanded, .artiphon-category-archive ul li a.expanded, .shopify .expanded.btn {
     display: block;
     width: 100%;
     margin-left: 0;
     margin-right: 0; }
-  .button.primary, .artiphon-category-archive ul li a.primary, #shopify .primary.btn {
+  .button.primary, .artiphon-category-archive ul li a.primary, .shopify .primary.btn {
     background-color: #b13d33;
     color: #fff; }
-    .button.primary:hover, .artiphon-category-archive ul li a.primary:hover, #shopify .primary.btn:hover, .button.primary:focus, .artiphon-category-archive ul li a.primary:focus, #shopify .primary.btn:focus {
+    .button.primary:hover, .artiphon-category-archive ul li a.primary:hover, .shopify .primary.btn:hover, .button.primary:focus, .artiphon-category-archive ul li a.primary:focus, .shopify .primary.btn:focus {
       background-color: #8e3129;
       color: #fff; }
-  .button.secondary, .artiphon-category-archive ul li a.secondary, #shopify .secondary.btn {
+  .button.secondary, .artiphon-category-archive ul li a.secondary, .shopify .secondary.btn {
     background-color: #3d3d3c;
     color: #fff; }
-    .button.secondary:hover, .artiphon-category-archive ul li a.secondary:hover, #shopify .secondary.btn:hover, .button.secondary:focus, .artiphon-category-archive ul li a.secondary:focus, #shopify .secondary.btn:focus {
+    .button.secondary:hover, .artiphon-category-archive ul li a.secondary:hover, .shopify .secondary.btn:hover, .button.secondary:focus, .artiphon-category-archive ul li a.secondary:focus, .shopify .secondary.btn:focus {
       background-color: #313130;
       color: #fff; }
-  .button.success, .artiphon-category-archive ul li a.success, #shopify .success.btn {
+  .button.success, .artiphon-category-archive ul li a.success, .shopify .success.btn {
     background-color: #3adb76;
     color: #fff; }
-    .button.success:hover, .artiphon-category-archive ul li a.success:hover, #shopify .success.btn:hover, .button.success:focus, .artiphon-category-archive ul li a.success:focus, #shopify .success.btn:focus {
+    .button.success:hover, .artiphon-category-archive ul li a.success:hover, .shopify .success.btn:hover, .button.success:focus, .artiphon-category-archive ul li a.success:focus, .shopify .success.btn:focus {
       background-color: #22bb5b;
       color: #fff; }
-  .button.warning, .artiphon-category-archive ul li a.warning, #shopify .warning.btn {
+  .button.warning, .artiphon-category-archive ul li a.warning, .shopify .warning.btn {
     background-color: #ffae00;
     color: #fff; }
-    .button.warning:hover, .artiphon-category-archive ul li a.warning:hover, #shopify .warning.btn:hover, .button.warning:focus, .artiphon-category-archive ul li a.warning:focus, #shopify .warning.btn:focus {
+    .button.warning:hover, .artiphon-category-archive ul li a.warning:hover, .shopify .warning.btn:hover, .button.warning:focus, .artiphon-category-archive ul li a.warning:focus, .shopify .warning.btn:focus {
       background-color: #cc8b00;
       color: #fff; }
-  .button.alert, .artiphon-category-archive ul li a.alert, #shopify .alert.btn {
+  .button.alert, .artiphon-category-archive ul li a.alert, .shopify .alert.btn {
     background-color: #ec5840;
     color: #fff; }
-    .button.alert:hover, .artiphon-category-archive ul li a.alert:hover, #shopify .alert.btn:hover, .button.alert:focus, .artiphon-category-archive ul li a.alert:focus, #shopify .alert.btn:focus {
+    .button.alert:hover, .artiphon-category-archive ul li a.alert:hover, .shopify .alert.btn:hover, .button.alert:focus, .artiphon-category-archive ul li a.alert:focus, .shopify .alert.btn:focus {
       background-color: #da3116;
       color: #fff; }
-  .button.hollow, .artiphon-category-archive ul li a.hollow, #shopify .hollow.btn {
+  .button.hollow, .artiphon-category-archive ul li a.hollow, .shopify .hollow.btn {
     border: 1px solid #b13d33;
     color: #b13d33; }
-    .button.hollow, .artiphon-category-archive ul li a.hollow, #shopify .hollow.btn, .button.hollow:hover, .artiphon-category-archive ul li a.hollow:hover, #shopify .hollow.btn:hover, .button.hollow:focus, .artiphon-category-archive ul li a.hollow:focus, #shopify .hollow.btn:focus {
+    .button.hollow, .artiphon-category-archive ul li a.hollow, .shopify .hollow.btn, .button.hollow:hover, .artiphon-category-archive ul li a.hollow:hover, .shopify .hollow.btn:hover, .button.hollow:focus, .artiphon-category-archive ul li a.hollow:focus, .shopify .hollow.btn:focus {
       background-color: transparent; }
-    .button.hollow:hover, .artiphon-category-archive ul li a.hollow:hover, #shopify .hollow.btn:hover, .button.hollow:focus, .artiphon-category-archive ul li a.hollow:focus, #shopify .hollow.btn:focus {
+    .button.hollow:hover, .artiphon-category-archive ul li a.hollow:hover, .shopify .hollow.btn:hover, .button.hollow:focus, .artiphon-category-archive ul li a.hollow:focus, .shopify .hollow.btn:focus {
       border-color: #591f1a;
       color: #591f1a; }
-    .button.hollow.primary, .artiphon-category-archive ul li a.hollow.primary, #shopify .hollow.primary.btn {
+    .button.hollow.primary, .artiphon-category-archive ul li a.hollow.primary, .shopify .hollow.primary.btn {
       border: 1px solid #b13d33;
       color: #b13d33; }
-      .button.hollow.primary:hover, .artiphon-category-archive ul li a.hollow.primary:hover, #shopify .hollow.primary.btn:hover, .button.hollow.primary:focus, .artiphon-category-archive ul li a.hollow.primary:focus, #shopify .hollow.primary.btn:focus {
+      .button.hollow.primary:hover, .artiphon-category-archive ul li a.hollow.primary:hover, .shopify .hollow.primary.btn:hover, .button.hollow.primary:focus, .artiphon-category-archive ul li a.hollow.primary:focus, .shopify .hollow.primary.btn:focus {
         border-color: #591f1a;
         color: #591f1a; }
-    .button.hollow.secondary, .artiphon-category-archive ul li a.hollow.secondary, #shopify .hollow.secondary.btn {
+    .button.hollow.secondary, .artiphon-category-archive ul li a.hollow.secondary, .shopify .hollow.secondary.btn {
       border: 1px solid #3d3d3c;
       color: #3d3d3c; }
-      .button.hollow.secondary:hover, .artiphon-category-archive ul li a.hollow.secondary:hover, #shopify .hollow.secondary.btn:hover, .button.hollow.secondary:focus, .artiphon-category-archive ul li a.hollow.secondary:focus, #shopify .hollow.secondary.btn:focus {
+      .button.hollow.secondary:hover, .artiphon-category-archive ul li a.hollow.secondary:hover, .shopify .hollow.secondary.btn:hover, .button.hollow.secondary:focus, .artiphon-category-archive ul li a.hollow.secondary:focus, .shopify .hollow.secondary.btn:focus {
         border-color: #1f1f1e;
         color: #1f1f1e; }
-    .button.hollow.success, .artiphon-category-archive ul li a.hollow.success, #shopify .hollow.success.btn {
+    .button.hollow.success, .artiphon-category-archive ul li a.hollow.success, .shopify .hollow.success.btn {
       border: 1px solid #3adb76;
       color: #3adb76; }
-      .button.hollow.success:hover, .artiphon-category-archive ul li a.hollow.success:hover, #shopify .hollow.success.btn:hover, .button.hollow.success:focus, .artiphon-category-archive ul li a.hollow.success:focus, #shopify .hollow.success.btn:focus {
+      .button.hollow.success:hover, .artiphon-category-archive ul li a.hollow.success:hover, .shopify .hollow.success.btn:hover, .button.hollow.success:focus, .artiphon-category-archive ul li a.hollow.success:focus, .shopify .hollow.success.btn:focus {
         border-color: #157539;
         color: #157539; }
-    .button.hollow.warning, .artiphon-category-archive ul li a.hollow.warning, #shopify .hollow.warning.btn {
+    .button.hollow.warning, .artiphon-category-archive ul li a.hollow.warning, .shopify .hollow.warning.btn {
       border: 1px solid #ffae00;
       color: #ffae00; }
-      .button.hollow.warning:hover, .artiphon-category-archive ul li a.hollow.warning:hover, #shopify .hollow.warning.btn:hover, .button.hollow.warning:focus, .artiphon-category-archive ul li a.hollow.warning:focus, #shopify .hollow.warning.btn:focus {
+      .button.hollow.warning:hover, .artiphon-category-archive ul li a.hollow.warning:hover, .shopify .hollow.warning.btn:hover, .button.hollow.warning:focus, .artiphon-category-archive ul li a.hollow.warning:focus, .shopify .hollow.warning.btn:focus {
         border-color: #805700;
         color: #805700; }
-    .button.hollow.alert, .artiphon-category-archive ul li a.hollow.alert, #shopify .hollow.alert.btn {
+    .button.hollow.alert, .artiphon-category-archive ul li a.hollow.alert, .shopify .hollow.alert.btn {
       border: 1px solid #ec5840;
       color: #ec5840; }
-      .button.hollow.alert:hover, .artiphon-category-archive ul li a.hollow.alert:hover, #shopify .hollow.alert.btn:hover, .button.hollow.alert:focus, .artiphon-category-archive ul li a.hollow.alert:focus, #shopify .hollow.alert.btn:focus {
+      .button.hollow.alert:hover, .artiphon-category-archive ul li a.hollow.alert:hover, .shopify .hollow.alert.btn:hover, .button.hollow.alert:focus, .artiphon-category-archive ul li a.hollow.alert:focus, .shopify .hollow.alert.btn:focus {
         border-color: #881f0e;
         color: #881f0e; }
-  .button.disabled, .artiphon-category-archive ul li a.disabled, #shopify .disabled.btn, .button[disabled], .artiphon-category-archive ul li a[disabled], #shopify [disabled].btn {
+  .button.disabled, .artiphon-category-archive ul li a.disabled, .shopify .disabled.btn, .button[disabled], .artiphon-category-archive ul li a[disabled], .shopify [disabled].btn {
     opacity: 0.25;
     cursor: not-allowed;
     pointer-events: none; }
-  .button.dropdown::after, .artiphon-category-archive ul li a.dropdown::after, #shopify .dropdown.btn::after {
+  .button.dropdown::after, .artiphon-category-archive ul li a.dropdown::after, .shopify .dropdown.btn::after {
     content: '';
     display: block;
     width: 0;
@@ -2586,7 +2586,7 @@ select {
     float: right;
     margin-left: 1.5rem;
     display: inline-block; }
-  .button.arrow-only::after, .artiphon-category-archive ul li a.arrow-only::after, #shopify .arrow-only.btn::after {
+  .button.arrow-only::after, .artiphon-category-archive ul li a.arrow-only::after, .shopify .arrow-only.btn::after {
     margin-left: 0;
     float: none;
     top: -0.1em; }
@@ -2841,90 +2841,90 @@ select {
     order: 1; }
   .button-group::after {
     clear: both; }
-  .button-group .button, .button-group .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group a, .button-group #shopify .btn, #shopify .button-group .btn {
+  .button-group .button, .button-group .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group a, .button-group .shopify .btn, .shopify .button-group .btn {
     margin: 0;
     font-size: 0.875rem;
     float: left; }
-    .button-group .button:not(:last-child), .button-group .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group a:not(:last-child), .button-group #shopify .btn:not(:last-child), #shopify .button-group .btn:not(:last-child) {
+    .button-group .button:not(:last-child), .button-group .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group a:not(:last-child), .button-group .shopify .btn:not(:last-child), .shopify .button-group .btn:not(:last-child) {
       border-right: 1px solid #fff; }
-  .button-group.tiny .button, .button-group.tiny .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.tiny a, .button-group.tiny #shopify .btn, #shopify .button-group.tiny .btn {
+  .button-group.tiny .button, .button-group.tiny .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.tiny a, .button-group.tiny .shopify .btn, .shopify .button-group.tiny .btn {
     font-size: 0.6rem; }
-  .button-group.small .button, .button-group.small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.small a, .button-group.small #shopify .btn, #shopify .button-group.small .btn {
+  .button-group.small .button, .button-group.small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.small a, .button-group.small .shopify .btn, .shopify .button-group.small .btn {
     font-size: 0.75rem; }
-  .button-group.large .button, .button-group.large .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.large a, .button-group.large #shopify .btn, #shopify .button-group.large .btn {
+  .button-group.large .button, .button-group.large .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.large a, .button-group.large .shopify .btn, .shopify .button-group.large .btn {
     font-size: 1.25rem; }
   .button-group.expanded {
     margin-right: -1px; }
     .button-group.expanded::before, .button-group.expanded::after {
       display: none; }
-    .button-group.expanded .button:first-child:nth-last-child(2), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2), .button-group.expanded #shopify .btn:first-child:nth-last-child(2), #shopify .button-group.expanded .btn:first-child:nth-last-child(2), .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded #shopify .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, #shopify .button-group.expanded .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded #shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li .button-group.expanded #shopify .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, #shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li #shopify .button-group.expanded .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded #shopify .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, #shopify .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .button-group.expanded .artiphon-category-archive ul li #shopify a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, #shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .artiphon-category-archive ul li .button-group.expanded #shopify a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, #shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .button-group.expanded #shopify .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, #shopify .button-group.expanded .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn {
+    .button-group.expanded .button:first-child:nth-last-child(2), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2), .button-group.expanded .shopify .btn:first-child:nth-last-child(2), .shopify .button-group.expanded .btn:first-child:nth-last-child(2), .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded .shopify .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .shopify .button-group.expanded .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li .button-group.expanded .shopify .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .artiphon-category-archive ul li .shopify .button-group.expanded .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ a, .button-group.expanded .shopify .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .shopify .button-group.expanded .button:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .button-group.expanded .artiphon-category-archive ul li .shopify a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .artiphon-category-archive ul li .button-group.expanded .shopify a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .button-group.expanded .shopify .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn, .shopify .button-group.expanded .btn:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ .btn {
       display: inline-block;
       width: calc(50% - 1px);
       margin-right: 1px; }
-    .button-group.expanded .button:first-child:nth-last-child(3), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3), .button-group.expanded #shopify .btn:first-child:nth-last-child(3), #shopify .button-group.expanded .btn:first-child:nth-last-child(3), .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded #shopify .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, #shopify .button-group.expanded .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded #shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li .button-group.expanded #shopify .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, #shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li #shopify .button-group.expanded .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded #shopify .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, #shopify .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .button-group.expanded .artiphon-category-archive ul li #shopify a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, #shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .artiphon-category-archive ul li .button-group.expanded #shopify a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, #shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .button-group.expanded #shopify .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, #shopify .button-group.expanded .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn {
+    .button-group.expanded .button:first-child:nth-last-child(3), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3), .button-group.expanded .shopify .btn:first-child:nth-last-child(3), .shopify .button-group.expanded .btn:first-child:nth-last-child(3), .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded .shopify .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .shopify .button-group.expanded .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li .button-group.expanded .shopify .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .artiphon-category-archive ul li .shopify .button-group.expanded .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ a, .button-group.expanded .shopify .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .shopify .button-group.expanded .button:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .button-group.expanded .artiphon-category-archive ul li .shopify a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .artiphon-category-archive ul li .button-group.expanded .shopify a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .button-group.expanded .shopify .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn, .shopify .button-group.expanded .btn:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ .btn {
       display: inline-block;
       width: calc(33.33333% - 1px);
       margin-right: 1px; }
-    .button-group.expanded .button:first-child:nth-last-child(4), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4), .button-group.expanded #shopify .btn:first-child:nth-last-child(4), #shopify .button-group.expanded .btn:first-child:nth-last-child(4), .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded #shopify .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, #shopify .button-group.expanded .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded #shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li .button-group.expanded #shopify .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, #shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li #shopify .button-group.expanded .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded #shopify .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, #shopify .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .button-group.expanded .artiphon-category-archive ul li #shopify a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, #shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .artiphon-category-archive ul li .button-group.expanded #shopify a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, #shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .button-group.expanded #shopify .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, #shopify .button-group.expanded .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn {
+    .button-group.expanded .button:first-child:nth-last-child(4), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4), .button-group.expanded .shopify .btn:first-child:nth-last-child(4), .shopify .button-group.expanded .btn:first-child:nth-last-child(4), .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded .shopify .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .shopify .button-group.expanded .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li .button-group.expanded .shopify .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .artiphon-category-archive ul li .shopify .button-group.expanded .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ a, .button-group.expanded .shopify .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .shopify .button-group.expanded .button:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .button-group.expanded .artiphon-category-archive ul li .shopify a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .artiphon-category-archive ul li .button-group.expanded .shopify a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .button-group.expanded .shopify .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn, .shopify .button-group.expanded .btn:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ .btn {
       display: inline-block;
       width: calc(25% - 1px);
       margin-right: 1px; }
-    .button-group.expanded .button:first-child:nth-last-child(5), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5), .button-group.expanded #shopify .btn:first-child:nth-last-child(5), #shopify .button-group.expanded .btn:first-child:nth-last-child(5), .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded #shopify .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, #shopify .button-group.expanded .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded #shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li .button-group.expanded #shopify .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, #shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li #shopify .button-group.expanded .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded #shopify .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, #shopify .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .button-group.expanded .artiphon-category-archive ul li #shopify a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, #shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .artiphon-category-archive ul li .button-group.expanded #shopify a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, #shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .button-group.expanded #shopify .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, #shopify .button-group.expanded .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn {
+    .button-group.expanded .button:first-child:nth-last-child(5), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5), .button-group.expanded .shopify .btn:first-child:nth-last-child(5), .shopify .button-group.expanded .btn:first-child:nth-last-child(5), .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded .shopify .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .shopify .button-group.expanded .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li .button-group.expanded .shopify .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .artiphon-category-archive ul li .shopify .button-group.expanded .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ a, .button-group.expanded .shopify .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .shopify .button-group.expanded .button:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .button-group.expanded .artiphon-category-archive ul li .shopify a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .artiphon-category-archive ul li .button-group.expanded .shopify a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .button-group.expanded .shopify .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn, .shopify .button-group.expanded .btn:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ .btn {
       display: inline-block;
       width: calc(20% - 1px);
       margin-right: 1px; }
-    .button-group.expanded .button:first-child:nth-last-child(6), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6), .button-group.expanded #shopify .btn:first-child:nth-last-child(6), #shopify .button-group.expanded .btn:first-child:nth-last-child(6), .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded #shopify .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, #shopify .button-group.expanded .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded #shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li .button-group.expanded #shopify .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, #shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li #shopify .button-group.expanded .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded #shopify .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, #shopify .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .button-group.expanded .artiphon-category-archive ul li #shopify a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, #shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .artiphon-category-archive ul li .button-group.expanded #shopify a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, #shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .button-group.expanded #shopify .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, #shopify .button-group.expanded .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn {
+    .button-group.expanded .button:first-child:nth-last-child(6), .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6), .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6), .button-group.expanded .shopify .btn:first-child:nth-last-child(6), .shopify .button-group.expanded .btn:first-child:nth-last-child(6), .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded .shopify .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .shopify .button-group.expanded .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button, .button-group.expanded .artiphon-category-archive ul li .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .shopify .artiphon-category-archive ul li .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li .button-group.expanded .shopify .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .shopify .button-group.expanded .artiphon-category-archive ul li .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .artiphon-category-archive ul li .shopify .button-group.expanded .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ a, .button-group.expanded .shopify .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .shopify .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .button-group.expanded .artiphon-category-archive ul li .shopify a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .shopify .button-group.expanded .artiphon-category-archive ul li a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .artiphon-category-archive ul li .button-group.expanded .shopify a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .shopify .artiphon-category-archive ul li .button-group.expanded a:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .button-group.expanded .shopify .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn, .shopify .button-group.expanded .btn:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .btn {
       display: inline-block;
       width: calc(16.66667% - 1px);
       margin-right: 1px; }
-  .button-group.primary .button, .button-group.primary .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.primary a, .button-group.primary #shopify .btn, #shopify .button-group.primary .btn {
+  .button-group.primary .button, .button-group.primary .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.primary a, .button-group.primary .shopify .btn, .shopify .button-group.primary .btn {
     background-color: #b13d33;
     color: #fff; }
-    .button-group.primary .button:hover, .button-group.primary .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.primary a:hover, .button-group.primary #shopify .btn:hover, #shopify .button-group.primary .btn:hover, .button-group.primary .button:focus, .button-group.primary .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.primary a:focus, .button-group.primary #shopify .btn:focus, #shopify .button-group.primary .btn:focus {
+    .button-group.primary .button:hover, .button-group.primary .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.primary a:hover, .button-group.primary .shopify .btn:hover, .shopify .button-group.primary .btn:hover, .button-group.primary .button:focus, .button-group.primary .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.primary a:focus, .button-group.primary .shopify .btn:focus, .shopify .button-group.primary .btn:focus {
       background-color: #8e3129;
       color: #fff; }
-  .button-group.secondary .button, .button-group.secondary .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.secondary a, .button-group.secondary #shopify .btn, #shopify .button-group.secondary .btn {
+  .button-group.secondary .button, .button-group.secondary .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.secondary a, .button-group.secondary .shopify .btn, .shopify .button-group.secondary .btn {
     background-color: #3d3d3c;
     color: #fff; }
-    .button-group.secondary .button:hover, .button-group.secondary .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.secondary a:hover, .button-group.secondary #shopify .btn:hover, #shopify .button-group.secondary .btn:hover, .button-group.secondary .button:focus, .button-group.secondary .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.secondary a:focus, .button-group.secondary #shopify .btn:focus, #shopify .button-group.secondary .btn:focus {
+    .button-group.secondary .button:hover, .button-group.secondary .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.secondary a:hover, .button-group.secondary .shopify .btn:hover, .shopify .button-group.secondary .btn:hover, .button-group.secondary .button:focus, .button-group.secondary .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.secondary a:focus, .button-group.secondary .shopify .btn:focus, .shopify .button-group.secondary .btn:focus {
       background-color: #313130;
       color: #fff; }
-  .button-group.success .button, .button-group.success .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.success a, .button-group.success #shopify .btn, #shopify .button-group.success .btn {
+  .button-group.success .button, .button-group.success .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.success a, .button-group.success .shopify .btn, .shopify .button-group.success .btn {
     background-color: #3adb76;
     color: #fff; }
-    .button-group.success .button:hover, .button-group.success .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.success a:hover, .button-group.success #shopify .btn:hover, #shopify .button-group.success .btn:hover, .button-group.success .button:focus, .button-group.success .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.success a:focus, .button-group.success #shopify .btn:focus, #shopify .button-group.success .btn:focus {
+    .button-group.success .button:hover, .button-group.success .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.success a:hover, .button-group.success .shopify .btn:hover, .shopify .button-group.success .btn:hover, .button-group.success .button:focus, .button-group.success .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.success a:focus, .button-group.success .shopify .btn:focus, .shopify .button-group.success .btn:focus {
       background-color: #22bb5b;
       color: #fff; }
-  .button-group.warning .button, .button-group.warning .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.warning a, .button-group.warning #shopify .btn, #shopify .button-group.warning .btn {
+  .button-group.warning .button, .button-group.warning .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.warning a, .button-group.warning .shopify .btn, .shopify .button-group.warning .btn {
     background-color: #ffae00;
     color: #fff; }
-    .button-group.warning .button:hover, .button-group.warning .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.warning a:hover, .button-group.warning #shopify .btn:hover, #shopify .button-group.warning .btn:hover, .button-group.warning .button:focus, .button-group.warning .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.warning a:focus, .button-group.warning #shopify .btn:focus, #shopify .button-group.warning .btn:focus {
+    .button-group.warning .button:hover, .button-group.warning .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.warning a:hover, .button-group.warning .shopify .btn:hover, .shopify .button-group.warning .btn:hover, .button-group.warning .button:focus, .button-group.warning .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.warning a:focus, .button-group.warning .shopify .btn:focus, .shopify .button-group.warning .btn:focus {
       background-color: #cc8b00;
       color: #fff; }
-  .button-group.alert .button, .button-group.alert .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.alert a, .button-group.alert #shopify .btn, #shopify .button-group.alert .btn {
+  .button-group.alert .button, .button-group.alert .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.alert a, .button-group.alert .shopify .btn, .shopify .button-group.alert .btn {
     background-color: #ec5840;
     color: #fff; }
-    .button-group.alert .button:hover, .button-group.alert .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.alert a:hover, .button-group.alert #shopify .btn:hover, #shopify .button-group.alert .btn:hover, .button-group.alert .button:focus, .button-group.alert .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.alert a:focus, .button-group.alert #shopify .btn:focus, #shopify .button-group.alert .btn:focus {
+    .button-group.alert .button:hover, .button-group.alert .artiphon-category-archive ul li a:hover, .artiphon-category-archive ul li .button-group.alert a:hover, .button-group.alert .shopify .btn:hover, .shopify .button-group.alert .btn:hover, .button-group.alert .button:focus, .button-group.alert .artiphon-category-archive ul li a:focus, .artiphon-category-archive ul li .button-group.alert a:focus, .button-group.alert .shopify .btn:focus, .shopify .button-group.alert .btn:focus {
       background-color: #da3116;
       color: #fff; }
-  .button-group.stacked .button, .button-group.stacked .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked a, .button-group.stacked #shopify .btn, #shopify .button-group.stacked .btn, .button-group.stacked-for-small .button, .button-group.stacked-for-small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small a, .button-group.stacked-for-small #shopify .btn, #shopify .button-group.stacked-for-small .btn, .button-group.stacked-for-medium .button, .button-group.stacked-for-medium .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-medium a, .button-group.stacked-for-medium #shopify .btn, #shopify .button-group.stacked-for-medium .btn {
+  .button-group.stacked .button, .button-group.stacked .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked a, .button-group.stacked .shopify .btn, .shopify .button-group.stacked .btn, .button-group.stacked-for-small .button, .button-group.stacked-for-small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small a, .button-group.stacked-for-small .shopify .btn, .shopify .button-group.stacked-for-small .btn, .button-group.stacked-for-medium .button, .button-group.stacked-for-medium .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-medium a, .button-group.stacked-for-medium .shopify .btn, .shopify .button-group.stacked-for-medium .btn {
     width: 100%; }
-    .button-group.stacked .button:not(:last-child), .button-group.stacked .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked a:not(:last-child), .button-group.stacked #shopify .btn:not(:last-child), #shopify .button-group.stacked .btn:not(:last-child), .button-group.stacked-for-small .button:not(:last-child), .button-group.stacked-for-small .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-small a:not(:last-child), .button-group.stacked-for-small #shopify .btn:not(:last-child), #shopify .button-group.stacked-for-small .btn:not(:last-child), .button-group.stacked-for-medium .button:not(:last-child), .button-group.stacked-for-medium .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-medium a:not(:last-child), .button-group.stacked-for-medium #shopify .btn:not(:last-child), #shopify .button-group.stacked-for-medium .btn:not(:last-child) {
+    .button-group.stacked .button:not(:last-child), .button-group.stacked .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked a:not(:last-child), .button-group.stacked .shopify .btn:not(:last-child), .shopify .button-group.stacked .btn:not(:last-child), .button-group.stacked-for-small .button:not(:last-child), .button-group.stacked-for-small .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-small a:not(:last-child), .button-group.stacked-for-small .shopify .btn:not(:last-child), .shopify .button-group.stacked-for-small .btn:not(:last-child), .button-group.stacked-for-medium .button:not(:last-child), .button-group.stacked-for-medium .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-medium a:not(:last-child), .button-group.stacked-for-medium .shopify .btn:not(:last-child), .shopify .button-group.stacked-for-medium .btn:not(:last-child) {
       margin-right: 0; }
   @media screen and (min-width: 40em) {
-    .button-group.stacked-for-small .button, .button-group.stacked-for-small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small a, .button-group.stacked-for-small #shopify .btn, #shopify .button-group.stacked-for-small .btn {
+    .button-group.stacked-for-small .button, .button-group.stacked-for-small .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small a, .button-group.stacked-for-small .shopify .btn, .shopify .button-group.stacked-for-small .btn {
       width: auto; }
-      .button-group.stacked-for-small .button:not(:last-child), .button-group.stacked-for-small .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-small a:not(:last-child), .button-group.stacked-for-small #shopify .btn:not(:last-child), #shopify .button-group.stacked-for-small .btn:not(:last-child) {
+      .button-group.stacked-for-small .button:not(:last-child), .button-group.stacked-for-small .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-small a:not(:last-child), .button-group.stacked-for-small .shopify .btn:not(:last-child), .shopify .button-group.stacked-for-small .btn:not(:last-child) {
         margin-right: 1px; } }
   @media screen and (min-width: 64em) {
-    .button-group.stacked-for-medium .button, .button-group.stacked-for-medium .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-medium a, .button-group.stacked-for-medium #shopify .btn, #shopify .button-group.stacked-for-medium .btn {
+    .button-group.stacked-for-medium .button, .button-group.stacked-for-medium .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-medium a, .button-group.stacked-for-medium .shopify .btn, .shopify .button-group.stacked-for-medium .btn {
       width: auto; }
-      .button-group.stacked-for-medium .button:not(:last-child), .button-group.stacked-for-medium .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-medium a:not(:last-child), .button-group.stacked-for-medium #shopify .btn:not(:last-child), #shopify .button-group.stacked-for-medium .btn:not(:last-child) {
+      .button-group.stacked-for-medium .button:not(:last-child), .button-group.stacked-for-medium .artiphon-category-archive ul li a:not(:last-child), .artiphon-category-archive ul li .button-group.stacked-for-medium a:not(:last-child), .button-group.stacked-for-medium .shopify .btn:not(:last-child), .shopify .button-group.stacked-for-medium .btn:not(:last-child) {
         margin-right: 1px; } }
   @media screen and (max-width: 39.9375em) {
     .button-group.stacked-for-small.expanded {
       display: block; }
-      .button-group.stacked-for-small.expanded .button, .button-group.stacked-for-small.expanded .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small.expanded a, .button-group.stacked-for-small.expanded #shopify .btn, #shopify .button-group.stacked-for-small.expanded .btn {
+      .button-group.stacked-for-small.expanded .button, .button-group.stacked-for-small.expanded .artiphon-category-archive ul li a, .artiphon-category-archive ul li .button-group.stacked-for-small.expanded a, .button-group.stacked-for-small.expanded .shopify .btn, .shopify .button-group.stacked-for-small.expanded .btn {
         display: block;
         margin-right: 0; } }
 
@@ -4397,7 +4397,7 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar .input-group-field {
     width: 100%;
     margin-right: 0; }
-  .top-bar input.button, .top-bar #shopify input.btn, #shopify .top-bar input.btn {
+  .top-bar input.button, .top-bar .shopify input.btn, .shopify .top-bar input.btn {
     width: auto; }
 
 @media screen and (max-width: 39.9375em) {
@@ -4468,7 +4468,7 @@ table.hover tr:nth-of-type(even):hover {
 a:link, a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
 
-.button, .artiphon-category-archive ul li a, #shopify .btn {
+.button, .artiphon-category-archive ul li a, .shopify .btn {
   letter-spacing: 0.1em;
   text-transform: uppercase; }
 
@@ -5104,10 +5104,10 @@ h5, .h5 {
  Stylesheet: Shopify
 
 *************************************************/
-#shopify .type--center {
+.shopify .type--center {
   text-align: center; }
 
-#shopify .btn {
+.shopify .btn {
   transition: all 200ms ease;
   max-width: 100%;
   width: 100%;
@@ -5116,14 +5116,14 @@ h5, .h5 {
   -moz-appearance: none;
   -webkit-appearance: none; }
 
-#shopify .btn--test {
+.shopify .btn--test {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%);
   transform: translate(-50%); }
 
-#shopify .btn--cart-tab {
+.shopify .btn--cart-tab {
   margin: 0;
   position: fixed;
   right: 1rem;
@@ -5133,19 +5133,19 @@ h5, .h5 {
   width: auto;
   height: auto;
   z-index: 2; }
-  #shopify .btn--cart-tab.js-active {
+  .shopify .btn--cart-tab.js-active {
     opacity: 1; }
 
-#shopify .btn__counter {
+.shopify .btn__counter {
   display: block;
   margin: 0 auto 10px auto;
   font-size: 18px; }
 
-#shopify .icon-cart--side {
+.shopify .icon-cart--side {
   height: 20px;
   width: 20px; }
 
-#shopify .cart {
+.shopify .cart {
   position: fixed;
   width: 100%;
   max-width: 350px;
@@ -5160,19 +5160,19 @@ h5, .h5 {
   transform: translateX(100%);
   transition: box-shadow 0.2s ease-out, -webkit-transform 0.2s ease-out;
   transition: box-shadow 0.2s ease-out, transform 0.2s ease-out; }
-  #shopify .cart.js-active {
+  .shopify .cart.js-active {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.1); }
 
-#shopify .cart-section {
+.shopify .cart-section {
   position: relative;
   padding: 20px; }
 
-#shopify .cart-section--top {
+.shopify .cart-section--top {
   z-index: 5; }
 
-#shopify .cart-title {
+.shopify .cart-title {
   color: #3d3d3c;
   display: inline-block;
   line-height: 1.5;
@@ -5181,7 +5181,7 @@ h5, .h5 {
   text-overflow: ellipsis;
   max-width: 90%; }
 
-#shopify .btn--close {
+.shopify .btn--close {
   position: absolute;
   right: 9px;
   top: 8px;
@@ -5192,19 +5192,19 @@ h5, .h5 {
   transition: -webkit-transform 100ms ease;
   transition: transform 100ms ease;
   cursor: pointer; }
-  #shopify .btn--close:hover {
+  .shopify .btn--close:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     color: #0a0a0a; }
 
-#shopify .cart-form {
+.shopify .cart-form {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   padding: 4.375rem 0 8.75rem 0; }
 
-#shopify .cart-item-container {
+.shopify .cart-item-container {
   height: 100%;
   position: relative;
   overflow-x: hidden;
@@ -5215,7 +5215,7 @@ h5, .h5 {
   -webkit-perspective-origin: 50% 0px;
   perspective-origin: 50% 0px; }
 
-#shopify .cart-item {
+.shopify .cart-item {
   margin-bottom: 20px;
   overflow: hidden;
   -webkit-backface-visibility: visible;
@@ -5224,9 +5224,9 @@ h5, .h5 {
   position: relative;
   opacity: 1;
   transition: opacity 0.2s ease-in-out; }
-  #shopify .cart-item.js-hidden {
+  .shopify .cart-item.js-hidden {
     opacity: 0; }
-  #shopify .cart-item.js-working:after {
+  .shopify .cart-item.js-working:after {
     content: '';
     position: absolute;
     top: 0;
@@ -5236,7 +5236,7 @@ h5, .h5 {
     background: rgba(255, 255, 255, 0.5);
     z-index: 2; }
 
-#shopify .cart-item__img {
+.shopify .cart-item__img {
   width: 65px;
   height: 65px;
   border-radius: 3px;
@@ -5246,26 +5246,26 @@ h5, .h5 {
   background-color: #e5e5e5;
   position: absolute; }
 
-#shopify .cart-item__content {
+.shopify .cart-item__content {
   width: 100%;
   padding-left: 75px; }
 
-#shopify .cart-item__content-row {
+.shopify .cart-item__content-row {
   margin-bottom: 5px; }
 
-#shopify .cart-item__variant-title {
+.shopify .cart-item__variant-title {
   float: right;
   font-weight: bold;
   font-size: 11px;
   line-height: 17px;
   color: #767676; }
 
-#shopify .cart-item__quantity-container {
+.shopify .cart-item__quantity-container {
   border: 1px solid #767676;
   float: left;
   border-radius: 3px; }
 
-#shopify .quantity-decrement, #shopify .quantity-increment {
+.shopify .quantity-decrement, .shopify .quantity-increment {
   color: #767676;
   display: block;
   float: left;
@@ -5281,7 +5281,7 @@ h5, .h5 {
   font-size: 18px;
   text-align: center; }
 
-#shopify .cart-item__quantity {
+.shopify .cart-item__quantity {
   color: black;
   width: 38px;
   height: 21px;
@@ -5299,40 +5299,40 @@ h5, .h5 {
   margin: 0;
   line-height: normal; }
 
-#shopify input[type=number]::-webkit-inner-spin-button,
-#shopify input[type=number]::-webkit-outer-spin-button {
+.shopify input[type=number]::-webkit-inner-spin-button,
+.shopify input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0; }
 
-#shopify .cart-item__price {
+.shopify .cart-item__price {
   line-height: 23px;
   float: right;
   font-weight: bold; }
 
-#shopify .cart-bottom {
+.shopify .cart-bottom {
   border-top: 1px solid #f1f1f1; }
 
-#shopify .cart-info {
+.shopify .cart-info {
   padding: 15px 20px 10px; }
 
-#shopify .cart-info__total {
+.shopify .cart-info__total {
   float: left;
   text-transform: uppercase; }
 
-#shopify .cart-info__small {
+.shopify .cart-info__small {
   font-size: 11px; }
 
-#shopify .cart-info__pricing {
+.shopify .cart-info__pricing {
   float: right; }
 
-#shopify .cart-discount-notice {
+.shopify .cart-discount-notice {
   color: #3d3d3c;
   margin-bottom: 10px; }
 
-#shopify .cart-actions-container {
+.shopify .cart-actions-container {
   padding-top: 5px; }
 
-#shopify .pricing {
+.shopify .pricing {
   margin-left: 5px;
   font-size: 16px;
   color: black; }

@@ -47,6 +47,12 @@
         </div>
       </div> <!-- end #inner-footer -->
     </footer> <!-- end .footer -->
+
+    <?php get_template_part( 'parts/shopify_cart' ); ?>
+
     <?php wp_footer(); ?>
+
+    <?php get_template_part( 'parts/shopify_scripts' ); ?>
+
   </body>
 </html> <!-- end page -->

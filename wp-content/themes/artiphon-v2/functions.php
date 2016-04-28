@@ -34,6 +34,7 @@ require_once(get_template_directory().'/assets/functions/disable-emoji.php');
 
 // Use this as a template for custom post types
 // require_once(get_template_directory().'/assets/functions/custom-post-type.php');
+require_once(get_template_directory().'/assets/functions/product.php');
 require_once(get_template_directory().'/assets/functions/press.php');
 
 // Customize the WordPress login menu

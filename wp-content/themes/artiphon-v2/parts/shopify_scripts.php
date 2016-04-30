@@ -5,6 +5,8 @@
     jQuery(document).ready(function() {
 
         var theShopifyID = jQuery('#product').attr('data-shopify-id');
+
+        // The cart doesn't work unless there's a product set
         if(typeof theShopifyID == 'undefined') {
           <?php
           $first_product_query = new WP_Query(

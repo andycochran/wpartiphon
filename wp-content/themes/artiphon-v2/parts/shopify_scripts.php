@@ -5,6 +5,20 @@
     jQuery(document).ready(function() {
 
         var theShopifyID = jQuery('#product').attr('data-shopify-id');
+        if(typeof theShopifyID == 'undefined') {
+          <?php
+          $first_product_query = new WP_Query(
+              array(
+                  'post_type' => 'artiphon_product',
+                  'order' => 'ASC',
+                  'orderby' => 'menu_order',
+                  'posts_per_page'=> 1
+              )
+          );
+          while ( $first_product_query->have_posts() ) : $first_product_query->the_post(); ?>
+          var theShopifyID = '<?php echo get_post_meta($post->ID, 'shopify_id', true); ?>';
+          <?php endwhile; ?>
+        }
 
         /* Build new ShopifyBuy client
         ============================================================ */
@@ -257,7 +271,6 @@
             openCart();
           });
         }
-
 
     });
 

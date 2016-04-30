@@ -36,7 +36,9 @@
           $products_query = new WP_Query(
               array(
                   'post_type' => 'artiphon_product',
-                  'order' => 'ASC'
+                  'order' => 'ASC',
+                  'orderby' => 'menu_order',
+                  'posts_per_page'=> -1
               )
           );
           while ( $products_query->have_posts() ) : $products_query->the_post();

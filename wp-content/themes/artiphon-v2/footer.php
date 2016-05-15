@@ -52,7 +52,7 @@
 
     <?php wp_footer(); ?>
 
-    <?php get_template_part( 'parts/shopify_scripts' ); ?>
+    <?php get_template_part( 'parts/shopify_scripts-v2' ); ?>
 
   </body>
 </html> <!-- end page -->

@@ -54,7 +54,10 @@
           var currentOptions = product.options;
 
           var variantSelectors = generateSelectors(product);
-          jQuery('.variant-selectors').html(variantSelectors);
+          if ( variantSelectors == '<select name="Title"><option value="Default Title">Default Title</option></select>' ) {
+          } else {
+            jQuery('.variant-selectors').html(variantSelectors);
+          }
 
           updateProductTitle(product.title);
           updateVariantImage(selectedVariantImage);

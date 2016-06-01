@@ -49,6 +49,7 @@ function artiphon_product_meta() {
   global $post;
   echo '<input type="hidden" name="artiphon_product_meta_noncename" id="artiphon_product_meta_noncename" value="' . wp_create_nonce(plugin_basename(__FILE__)) . '" />';
   $shopify_id = get_post_meta($post->ID, 'shopify_id', true);
+  $shopify_price = get_post_meta($post->ID, 'shopify_price', true);
   ?>
   <table class="form-table">
 
@@ -56,6 +57,13 @@ function artiphon_product_meta() {
       <th scope="row">Shopify ID</th>
       <td>
         <input type="text" name="shopify_id" value="<?php echo esc_attr( $shopify_id ); ?>" class="regular-text" />
+      </td>
+    </tr>
+
+    <tr valign="top">
+      <th scope="row">Price</th>
+      <td>
+        <input type="text" name="shopify_price" value="<?php echo esc_attr( $shopify_price ); ?>" class="regular-text" />
       </td>
     </tr>
 
@@ -70,6 +78,7 @@ function save_artiphon_product_meta($post_id, $post) {
   if ( !current_user_can( 'edit_post', $post->ID ))
     return $post->ID;
   $product_meta['shopify_id'] = $_POST['shopify_id'];
+  $product_meta['shopify_price'] = $_POST['shopify_price'];
   foreach ($product_meta as $key => $value) { // Cycle through the $events_meta array!
     if( $post->post_type == 'revision' ) return; // Don't store custom data twice
     $value = implode(',', (array)$value); // If $value is an array, make it a CSV (unlikely)

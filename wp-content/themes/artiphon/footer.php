@@ -5,7 +5,7 @@
 					<div id="mc_embed_signup">
 						<form action="//artiphon.us6.list-manage.com/subscribe/post?u=8af72f538636e376b35f0201d&amp;id=7ddb3c68cf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							<div id="mc_embed_signup_scroll">
-								<h2 class="text-center font-slab">To receive a $25 discount code, sign up for our mailing list.</h2>
+								<h2 class="text-center font-slab">Join our community of music-makers around the world.</h2>
 								<div class="input-group">
 									<div class="mc-field-group">
 										<label for="mce-EMAIL" class="show-for-sr">Email</label>

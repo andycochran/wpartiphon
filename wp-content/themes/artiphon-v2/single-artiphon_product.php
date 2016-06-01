@@ -18,7 +18,7 @@
                 <h1 class="product-title"></h1>
                 <h2 class="variant-price"></h2>
                 <div class="variant-selectors"></div>
-                <div><button class="buy-button button">Buy Now</button></div>
+                <div><button class="buy-button button">Add to Cart</button></div>
                 <div class="product-description"></div>
                 <?php the_content(); ?>
               </div>

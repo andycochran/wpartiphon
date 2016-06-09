@@ -48,11 +48,11 @@
       </div> <!-- end #inner-footer -->
     </footer> <!-- end .footer -->
 
-    <?php get_template_part( 'parts/shopify_cart' ); ?>
+    <?php get_template_part( 'shopify_cart' ); ?>
 
     <?php wp_footer(); ?>
 
-    <?php get_template_part( 'parts/shopify_scripts' ); ?>
+    <?php get_template_part( 'shopify_scripts' ); ?>
 
   </body>
 </html> <!-- end page -->
